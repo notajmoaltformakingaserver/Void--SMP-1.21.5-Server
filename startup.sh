@@ -15,3 +15,5 @@ cd ..
 echo "Starting Paper server..."
 cd server
 java -jar server.jar
+
+echo "[JmoCorp]: Hi console!"

@@ -3,12 +3,11 @@ debug-mode: true
 
 #worlds for y0 to be enabled in
 enabled-worlds:
-
     - 'speedrun'
     - 'gimu'
     - 'world'
     - 'world_nether'
-    - 'world_end'
+    - 'world_the_end'
 
 #the amount of threads for the chunk processor to use - using more threads processes chunks faster, but increases CPU usage
 #-1 is automatic

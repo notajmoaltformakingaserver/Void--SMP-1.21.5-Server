@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1770304547888
+  lastteleport: 1770347953557
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770306008675
-  login: 1770304505816
+  logout: 1772560499186
+  login: 1772557549067
 money: '0'
 last-account-name: Jmofrfr
 lastlocation:
-  world: 892d3e1b-3484-4bcf-b8a4-06deb925e4a0
-  world-name: BigPlots
-  x: -145.37928383578105
-  y: 65.0
-  z: -157.39779640611937
-  yaw: 54.000240325927734
-  pitch: 5.249950408935547
+  world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
+  world-name: gimu
+  x: 7.4187275333912766
+  y: -9.799999952316284
+  z: -1.321962415869716
+  yaw: -170.70004272460938
+  pitch: -70.3499984741211
 logoutlocation:
-  world: 0287afd3-cc48-4e07-96f8-06b2585d811b
-  world-name: world
-  x: -159.07863159662938
-  y: 75.24315074408
-  z: -113.71881352684315
-  yaw: -129.75152587890625
-  pitch: 14.699949264526367
+  world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
+  world-name: gimu
+  x: 22.744365982975857
+  y: 8.372736383273086
+  z: 20.146045179153873
+  yaw: -176.44944763183594
+  pitch: 13.799975395202637

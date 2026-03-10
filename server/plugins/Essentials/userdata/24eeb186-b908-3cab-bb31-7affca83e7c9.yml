@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1770336049398
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770305925930
-  login: 1770305896012
+  logout: 1770336183818
+  login: 1770335349348
 money: '0'
 last-account-name: Grum
 lastlocation:
   world: 0287afd3-cc48-4e07-96f8-06b2585d811b
   world-name: world
-  x: -12.5
-  y: 68.0
-  z: -24.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 69.4078349110653
+  y: 94.99313615921162
+  z: -14.95208851246569
+  yaw: -108.9000244140625
+  pitch: 58.20001220703125
 logoutlocation:
   world: 0287afd3-cc48-4e07-96f8-06b2585d811b
   world-name: world
-  x: -30.19424128116006
-  y: 79.24313565259423
-  z: -58.02397133123378
-  yaw: -171.89999389648438
-  pitch: 16.35003662109375
+  x: -160.8780250855896
+  y: 79.79852886775411
+  z: -130.16510118157208
+  yaw: -169.50010681152344
+  pitch: 12.749972343444824
