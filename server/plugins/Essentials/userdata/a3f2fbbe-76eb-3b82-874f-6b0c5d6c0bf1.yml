@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772560499186
-  login: 1772557549067
+  logout: 1773170137109
+  login: 1773170031888
 money: '0'
 last-account-name: Jmofrfr
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
   world-name: gimu
-  x: 22.744365982975857
-  y: 8.372736383273086
-  z: 20.146045179153873
-  yaw: -176.44944763183594
-  pitch: 13.799975395202637
+  x: 33.35206768890739
+  y: 1.0
+  z: 34.256714810664064
+  yaw: -85.87185668945312
+  pitch: 9.900001525878906

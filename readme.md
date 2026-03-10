@@ -1,204 +1,205 @@
-# Void SMP Server Template
+ Void SMP — Eaglercraft 1.21.10 Server Template
+
+> Created and maintained by **Jmo_fr** | Originally based on work by **wadwdwd1** and **atypicalpotato**
+
+---
 
 ## What This Is
 
-* This repository is a **fully configured Minecraft server template** based on **Jmo's "Void -- SMP"**.
-* It is intended for people who **do not know how to start or configure a server** and want a working base.
-* This is **NOT a fresh server**. Worlds, configurations, and plugin data already exist.
-* The server is currently updated to **Minecraft 1.21.10**.
+This is a **fully configured Minecraft server template** for an Eaglercraft-compatible server, based on Jmo's personal server **"Void SMP"**. It is designed to run entirely inside **GitHub Codespaces** with no local setup required.
 
-### THIS IS NOT MADE BY ME
-
-* Originally created by **wadwdwd1** and **atypicalpotato** (YouTube).
-* This repository is a **fork and continuation** maintained by **Jmo_fr**.
-* The purpose of this fork is **education, accessibility, and convenience**, not ownership.
+- This is **not a fresh server** — worlds, plugins, and configurations are already in place
+- The server runs on **Minecraft 1.21.10** (updated from 1.21.5)
+- Online mode is **OFF** to support cracked and Eaglercraft clients
+- The server is primarily a **creative/SMP hybrid** server
 
 ---
 
 ## How to Start
 
-This repository was created as a **GitHub Codespaces-ready template** for the server **"Void-SMP"**.
-
 ### Requirements
-
-* GitHub account
-* GitHub Codespaces
-* Basic understanding of Minecraft servers (recommended, not required)
+- A GitHub account
+- Access to GitHub Codespaces
 
 ### Steps
 
-0. Open this repository in **GitHub Codespaces**.
-
-<img width="481" height="228" alt="Codespaces screenshot" src="https://github.com/user-attachments/assets/74f3b0c9-f1bf-4688-b629-ecd6a04fdb19" />
-
-1. Run the startup script:
-
+1. Open this repository in **GitHub Codespaces**
+2. Run the startup script:
    ```bash
    bash startup.sh
    ```
-2. When prompted, **set BOTH forwarded ports to Public**.
-3. Copy the forwarded port link for **port 25567**.
-4. Replace `https://` with `wss://`.
+3. Set **both** forwarded ports to **Public** when prompted
+4. Copy the forwarded link for **port 25567**
+5. Replace `https://` with `wss://` — this is your **server IP**
+6. The original `https://` link can be opened in a new tab to access the web client directly
 
-   * This becomes your **server IP**.
-   * The original `https://` link can be opened in a new tab to access the web client.
+### Port Reference
+| Port  | Purpose |
+|-------|---------|
+| 25565 | Internal Minecraft port |
+| 25567 | Eaglercraft / WebSocket client port |
 
-### Important Notes
+> If port 25567 is not set to **Public**, players will not be able to connect.
 
-* Port **25565** is used internally.
-* Port **25567** is required for Eaglercraft / WebSocket clients.
-* If port 25567 is not public, players will not be able to join.
+---
+
+## Startup Time
+
+The server takes approximately **100–120 seconds** to fully start due to the number of plugins loaded. This is normal — just wait for the console to finish before trying to connect.
+
+---
+
+## Server Structure
+
+```
+/
+├── server/       ← Main gameplay server (Void SMP)
+├── velocity/     ← Proxy / connection handler
+├── limbo/        ← Limbo server for login handling
+├── startup.sh    ← Run this to start everything
+└── Dockerfile
+```
+
+> **Do not modify the `velocity` or `limbo` folders** unless you know what you're doing. Misconfiguring these will break player connections entirely.
 
 ---
 
 ## Plugins
 
-### Plugin Notes
-
-* This template **comes with plugins pre-installed and configured**.
-* Most plugins include **default or custom presets**.
-* All gameplay plugins are located in **SERVER/plugins** (not Velocity).
-* You are **strongly encouraged** to review every plugin configuration.
-* Removing plugins without understanding dependencies may break features.
+All plugins are located in `server/plugins/`. Do not remove plugins without understanding their dependencies.
 
 ### Core / Essentials
+| Plugin | Description |
+|--------|-------------|
+| EssentialsX | Core server commands and utilities |
+| EssentialsXChat | Chat formatting and rank integration |
+| EssentialsXGeoIP | Country-based player lookups |
+| EssentialsXProtect | Basic griefing protection |
+| EssentialsXSpawn | Spawn point management |
+| EssentialsXSelectors | Command selectors (@s, @p, etc.) |
+| Vault | Economy and permissions API bridge |
+| LuckPerms | Permissions and rank management |
+| ProtocolLib | Packet-level plugin support (required by many plugins) |
+| PacketEvents | Networking utility library |
+| PlaceholderAPI | Placeholder support across plugins |
+| bStats | Plugin metrics (auto-managed, do not delete) |
+| NBTAPI | NBT data API (required dependency) |
+| WolfyUtilities | Utility library for CustomCrafting |
 
-* **EssentialsX** – Core server commands and utilities
-* **EssentialsXChat** – Chat formatting and rank integration
-* **EssentialsXGeoIP** – Country-based lookups
-* **EssentialsXProtect** – Basic protection features
-* **EssentialsXSpawn** – Spawn handling
-* **EssentialsXSelectors** – Command selectors (@s, @p, etc.)
-* **Vault** – Economy and permission API
-* **LuckPerms** – Permissions and rank management
+### Economy / Progression
+| Plugin | Description |
+|--------|-------------|
+| EconomyShopGUI | GUI-based item shop system |
+| mcMMO | RPG-style skill leveling system |
 
-### Economy / Shops
+### World / Building / Claims
+| Plugin | Description |
+|--------|-------------|
+| WorldEdit | World editing tools |
+| FastAsyncWorldEdit (FAWE) | High-performance WorldEdit alternative |
+| WorldGuard | Region protection and flags |
+| Multiverse-Core | Multiple world support |
+| Multiverse-Portals | Inter-world portal creation |
+| PlotSquared | Player plot and land management |
+| CustomCrafting | Custom crafting recipe support |
 
-* **EconomyShopGUI** – GUI-based item shops
-* **mcMMO** – RPG-style leveling and skills
+### NPCs / Interaction
+| Plugin | Description |
+|--------|-------------|
+| Citizens | NPC framework |
+| Sentinel | Combat AI traits for NPCs |
+| LibsDisguises | Entity disguise system |
+| InteractionVisualizer | Visualizes player interactions |
+| InteractiveChat | Enhanced interactive chat features |
+| GSit | Allows players to sit on blocks/chairs |
+| GrapplingHook | Grappling hook item mechanic |
 
-### NPC / World / Claims
-
-* **Citizens** – NPC framework
-* **Sentinel** – Combat traits for NPCs
-* **WorldEdit** – World editing tools
-* **FastAsyncWorldEdit (FAWE)** – High-performance WorldEdit
-* **WorldGuard** – Region protection and flags
-* **Multiverse-Core** – Multiple world support
-* **Multiverse-Portals** – Inter-world portals
-* **PlotSquared** – Player plots and land management
-
-### Combat / Abilities / Gameplay
-
-* **CrackShot** – Gun-style weapons
-* **CustomEnchants** – Custom enchantments
-* **MagicAbilitys** – Ability and power system
-* **ReanimateMC** – Custom death and revive mechanics
+### Combat / Abilities
+| Plugin | Description |
+|--------|-------------|
+| CrackShot | Gun-style custom weapon system |
+| CustomEnchants | Custom enchantment framework |
 
 ### Chat / UI / Visuals
+| Plugin | Description |
+|--------|-------------|
+| ChatFormatter | Advanced chat formatting |
+| TAB | Tablist, scoreboard, and nametag formatting |
+| DecentHolograms | Floating hologram text displays |
 
-* **ChatFormatter** – Advanced chat formatting
-* **TAB** – Tablist, scoreboard, and name formatting
-* **DecentHolograms** – Floating hologram text
-* **PlaceholderAPI** – Placeholder support for many plugins
-
-### Utilities / Spine
-
-* **ProtocolLib** – Packet-level plugin support
-* **PacketEvents** – Networking utility library
-* **LibsDisguises** – Entity disguises
-* **spark** – Performance profiling
-* **laggassist** – Lag reduction utilities
-* **TuffX** – Allows Tuff Client 1.1+ players to go below Y=0
-
-### Moderation / Administration
-
-* **UltimateModeration** – Moderation and punishment tools
-* **Amend** – Chat and moderation utilities
+### Performance / Admin
+| Plugin | Description |
+|--------|-------------|
+| LagAssist | Server lag reduction and monitoring |
+| spark | Performance profiling tool |
+| UltimateModeration (SongodaCore) | Moderation and punishment tools |
+| Amend | Chat and moderation utilities |
 
 ### Version Support
-
-* **ViaVersion** – Multi-version support
-* **ViaBackwards** – Allows older clients to join
-* **ViaRewind** – Legacy protocol support
-
----
-
-## Legal Stuff
-
-* This project is free to use, modify, and redistribute.
-* Credit must be given to **Jmo_fr**.
-* Licensed under **The Unlicense**.
-* This is a **real server configuration**, not a mock setup.
-* **Online mode is OFF** to allow cracked clients.
-* Eaglercraft 1.8–1.12 does **not** contain Mojang/Microsoft source code.
-* Eaglercraft was created by **lax1dude** to run Minecraft in a browser.
+| Plugin | Description |
+|--------|-------------|
+| ViaVersion | Allows newer client versions to connect |
+| ViaBackwards | Allows older client versions to connect |
+| TuffX | Allows Tuff Client 1.1+ players to build below Y=0 |
 
 ---
 
-## Miscellaneous
+## Configuration Tips
 
-### Worlds
+### Permissions & Ranks
+Managed via **LuckPerms**. Review and adjust ranks before opening the server publicly.
 
-* Multiple worlds already exist for testing and demonstration.
-* You may safely delete them if you want a clean setup.
-* Creating a new world via Multiverse is recommended for production use.
+### Region Protection
+**WorldGuard** is pre-installed. Set up regions to protect builds and prevent griefing.
 
-### Permissions
+### Shop Setup
+Adjust **EconomyShopGUI** prices to fit your economy balance.
 
-* Permissions and ranks are managed using **LuckPerms**.
-* Review ranks before opening the server to players.
+### MOTD / Branding
+Edit `listeners.toml` (lines 70 and 82) to change the server MOTD.
 
-### Operator Access
-
-To OP yourself, run in console:
-
+### Opping Yourself
+Run in the console (no `/` prefix needed):
 ```
 op <username>
 ```
 
-### Console Commands
+---
 
-* Do not prefix commands with `/` when using the console.
+## Worlds
 
-### MOTD / Branding
-
-* Edit `listeners.toml` (lines 70 and 82) to change the MOTD.
-* Only change the server icon if you understand the format requirements.
+Multiple worlds are pre-generated for testing. You can safely delete them and create fresh ones via Multiverse:
+```
+mv create <worldname> normal
+```
 
 ---
 
-## Notes
+## Troubleshooting
 
-* Some plugins or configurations may become outdated over time.
-* You are expected to maintain and update this server yourself.
-* This repository is a **template**, not a turnkey hosting service.
+**Players can't connect:**
+- Make sure port 25567 is set to **Public** in Codespaces
+- Make sure you're using `wss://` not `https://` in the IP
+
+**Server takes forever to start:**
+- This is normal with this many plugins — wait for the console to finish (~100s)
+
+**Broke the login/velocity setup:**
+- Restore from the original repo template — do not manually edit velocity or limbo configs unless necessary
 
 ---
 
-## Additional Content
+## Legal & Credits
 
-### WorldGuard (Pre-Installed)
+- Originally created by **wadwdwd1** and **atypicalpotato**
+- Forked, updated, and maintained by **Jmo_fr**
+- Licensed under **The Unlicense** — free to use, modify, and redistribute
+- Please credit **Jmo_fr** if you use this as a base
+- Eaglercraft was created by **lax1dude** and does not contain Mojang/Microsoft source code
+- Online mode is OFF to support Eaglercraft and cracked clients
 
-* **WorldGuard is already installed and configured**.
-* Regions are required to protect builds and prevent griefing.
-* You should review all region flags and default settings.
+---
 
-### Recommended Next Steps
+## Contributing
 
-* Review **LuckPerms** ranks
-* Configure **WorldGuard** regions
-* Adjust **EconomyShopGUI** prices
-* Create a new main world
-* Test combat and ability plugins before public release
-
-### Expanding the Server
-
-* Additional plugins can be downloaded from **Modrinth** or **SpigotMC**.
-* Always verify plugin compatibility with **Minecraft 1.21.10**.
-* Backup before adding or removing major plugins.
-
-### Contributing
-
-* Contributions are welcome.
-* Improve documentation, configs, or performance where possible.
+Contributions are welcome! Feel free to improve documentation, fix configs, or optimize performance. Open a pull request or fork freely.

@@ -77,7 +77,7 @@
 	# Multiplayer menu server list.
 	
 	
-	server_motd = ["\u00a7r                       ﻿\u00a7d\u00a7l- \u00a75\u00a7lVoid \u00a78\u00a7l\u00a7o-- \u00a7d\u00a7lSMP \u00a75\u00a7l-\n             \u00a78\u00a7l\u00a7k- \u00a7e\u00a7l1.8.8 \u00a7f\u00a7l- \u00a72\u00a7lLong ahh IP \u00a7f\u00a7l- \u00a7e\u00a7l1.21.5 \u00a78\u00a7l\u00a7k-"]
+	server_motd = ["\u00a7r                       \u00a7d\u00a7l- \u00a75\u00a7lVoid \u00a78\u00a7l\u00a7o-- \u00a7d\u00a7lSMP \u00a75\u00a7l-\n             \u00a78\u00a7l\u00a7k- \u00a7e\u00a7l1.12.2 \u00a7f\u00a7l- \u00a72\u00a7lbetter then seal \u00a7f\u00a7l- \u00a7e\u00a7l1.21.10 \u00a78\u00a7l\u00a7k-"]
 	
 	
 	# Default value is true, is this listener should respond to MOTD queries or not

@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772603860530
-  login: 1772603619457
+  logout: 1773177475233
+  login: 1773176979860
 money: '0'
 last-account-name: Jmo_fr
 logoutlocation:
-  world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
-  world-name: gimu
-  x: 39.925801077626616
-  y: 1.0
-  z: 36.91742846436521
-  yaw: 25.78066635131836
-  pitch: 90.0
+  world: dac8053b-c7c1-4eca-968d-3979da363a1a
+  world-name: Plots
+  x: -33.02204851833027
+  y: 65.0
+  z: -74.53430976257623
+  yaw: 89.2501220703125
+  pitch: 16.64998435974121
 lastlocation:
   world: dac8053b-c7c1-4eca-968d-3979da363a1a
   world-name: Plots
