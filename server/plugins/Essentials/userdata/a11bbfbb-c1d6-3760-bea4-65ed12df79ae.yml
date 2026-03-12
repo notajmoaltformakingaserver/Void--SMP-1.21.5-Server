@@ -11,29 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772599173404
+  lastteleport: 1773289796381
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772603554340
-  login: 1772602623993
+  logout: 1773290231230
+  login: 1773287933845
 money: '0'
 last-account-name: MrIrishManfrfr
 lastlocation:
   world: dac8053b-c7c1-4eca-968d-3979da363a1a
   world-name: Plots
-  x: -135.5
+  x: -43.48492008751603
   y: 65.0
-  z: -141.5
-  yaw: 64.94966125488281
-  pitch: 8.399994850158691
-nickname: §d§lfemboy
+  z: -73.76231247417786
+  yaw: -8.365512258023955E-6
+  pitch: -2.002715973503655E-6
 logoutlocation:
   world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
   world-name: gimu
-  x: 27.130998922859003
-  y: 5.494886602373871
-  z: 18.048151977031754
-  yaw: 92.41159057617188
-  pitch: 9.749988555908203
+  x: 27.018580006918253
+  y: 3.5
+  z: 14.288309366879874
+  yaw: 1.78887939453125
+  pitch: -21.1500244140625

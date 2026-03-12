@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773248510736
+  login: 1773248029748
+money: '0'
+last-account-name: MatPat
+lastlocation:
+  world: 0287afd3-cc48-4e07-96f8-06b2585d811b
+  world-name: world
+  x: -5.5
+  y: 79.0
+  z: -21.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: dac8053b-c7c1-4eca-968d-3979da363a1a
+  world-name: Plots
+  x: -49.87364728277402
+  y: 65.0
+  z: -122.02601366367907
+  yaw: 178.6494140625
+  pitch: 15.150009155273438

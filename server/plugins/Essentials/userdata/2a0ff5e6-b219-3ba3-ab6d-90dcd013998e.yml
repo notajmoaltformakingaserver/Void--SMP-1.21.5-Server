@@ -1,4 +1,4 @@
-teleportenabled: true
+teleportenabled: false
 teleportauto: false
 godmode: false
 muted: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772597815426
+  lastteleport: 1773289569551
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772598544360
-  login: 1772596308370
+  logout: 1773290659211
+  login: 1773290476820
 money: '0'
 last-account-name: Yimo
 lastlocation:
-  world: dac8053b-c7c1-4eca-968d-3979da363a1a
-  world-name: Plots
-  x: -1851.7822016374594
-  y: 70.37324229239897
-  z: 311.2505735483837
-  yaw: 85.98749542236328
-  pitch: 22.661161422729492
+  world: 23396cec-ec4b-481e-a7ba-2541314f0cbf
+  world-name: gimu
+  x: 5.1328598150590246
+  y: 11.867192041732775
+  z: 128.2762912126745
+  yaw: -148.10302734375
+  pitch: 18.783002853393555
 logoutlocation:
   world: dac8053b-c7c1-4eca-968d-3979da363a1a
   world-name: Plots
-  x: -178.4993910489132
-  y: 67.11644194820487
-  z: -111.25636507014573
-  yaw: 154.5648193359375
-  pitch: 52.981292724609375
+  x: -115.05942752833336
+  y: 73.86142873336753
+  z: -21.393801132086256
+  yaw: 60.992637634277344
+  pitch: 88.2372055053711

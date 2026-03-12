@@ -11,28 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772599287156
+  lastteleport: 1773263709735
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1773177475233
-  login: 1773176979860
+  logout: 1773290422289
+  login: 1773290157323
 money: '0'
 last-account-name: Jmo_fr
 logoutlocation:
   world: dac8053b-c7c1-4eca-968d-3979da363a1a
   world-name: Plots
-  x: -33.02204851833027
-  y: 65.0
-  z: -74.53430976257623
-  yaw: 89.2501220703125
-  pitch: 16.64998435974121
+  x: -23.904246704013993
+  y: 71.98025666799549
+  z: -165.10270214191735
+  yaw: 168.6001434326172
+  pitch: 32.54999923706055
 lastlocation:
   world: dac8053b-c7c1-4eca-968d-3979da363a1a
   world-name: Plots
-  x: -43.48492008751603
-  y: 65.0
-  z: -73.76231247417786
-  yaw: -8.365512258023955E-6
-  pitch: -2.002715973503655E-6
+  x: -33.51609060353087
+  y: 70.84895391203698
+  z: -101.27513096416736
+  yaw: -7.973056793212891
+  pitch: -90.0
+nickname: §a§lJmo_fr

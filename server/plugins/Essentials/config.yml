@@ -557,8 +557,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&8[&a&l+&8] &e{USERNAME}&7 {ONLINE} Others in the server."
-custom-quit-message: "&8[&c&l-&8] &e{USERNAME}&7 {ONLINE} remain."
+custom-join-message: "&8[&a&l+&8] &e{USERNAME}&7 {ONLINE} Players Online"
+custom-quit-message: "&8[&c&l-&8] &e{USERNAME}&7 {ONLINE} Remain"
 
 # You can set a custom join message for players who join with an updated username here.
 # This message will only be used if a player has joined before and has since changed their username.

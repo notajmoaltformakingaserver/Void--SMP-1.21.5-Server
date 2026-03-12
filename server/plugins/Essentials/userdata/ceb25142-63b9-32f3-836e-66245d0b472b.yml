@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773251818047
+  login: 1773251769308
+money: '1'
+last-account-name: LordSapnerd
+lastlocation:
+  world: dac8053b-c7c1-4eca-968d-3979da363a1a
+  world-name: Plots
+  x: -39.418013437575524
+  y: 65.41999998688698
+  z: -70.9818155479474
+  yaw: -127.82469177246094
+  pitch: 15.4180269241333
+nickname: §kI§r§cSap§r§kI
+logoutlocation:
+  world: 3546aeb0-36f1-4eae-92a4-3f52ddaec9b4
+  world-name: speedrun
+  x: -52.83630288061038
+  y: 70.0
+  z: 18.232234441624037
+  yaw: 161.9552001953125
+  pitch: -0.9224457144737244

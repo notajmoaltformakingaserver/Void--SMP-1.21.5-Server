@@ -16,4 +16,13 @@ echo "Starting Paper server..."
 cd server
 java -jar server.jar
 
-echo "[JmoCorp]: Hi console!"
+echo "------------------------------------------------------------------------------"
+echo "[JmoCorp]: You have stopped the server!"
+echo "[JmoCorp]: (origin: /stop or "ctrl + c", or server crashed either on startup or from in-game actions.)"
+echo "[JmoCorp]: (message origin: startup.sh)"
+echo "[JmoCorp]: Paper Server was stopped after starting so this message appeared."
+echo "[JmoCorp]: You can edit this message inside"
+echo "[JmoCorp]: bye!"
+echo "------------------------------------------------------------------------------"
+sleep 10
+echo "Everything Successfully (Probably) Stopped. You May Use TERMINAL Commands Now."
