@@ -25,3 +25,12 @@ locations:
       z: 0.0
       yaw: 0.0
       pitch: 0.0
+  survival:
+    center:
+      world: 0287afd3-cc48-4e07-96f8-06b2585d811b
+      world-name: world
+      x: 0.0
+      y: 74.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0

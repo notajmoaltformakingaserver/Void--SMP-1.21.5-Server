@@ -1,0 +1,281 @@
+[33mcommit 53087b4bd158c8f67ba248c2ae3b6ed751779dd8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Thu Mar 12 22:24:05 2026 +0000
+
+    saving before i fk up something
+
+[33mcommit 1989f8c281d0bf73ea4c57315e8bfdabafe24e38[m
+Merge: 20601c4 5833190
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Tue Mar 10 22:13:37 2026 +0000
+
+    Merge branch 'main' of https://github.com/notajmoaltformakingaserver/Void--SMP-1.21.5-Server
+
+[33mcommit 20601c47e5bcf74afb4d5b0fccb1334c78a28215[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Tue Mar 10 22:11:01 2026 +0000
+
+    cleanup :DD
+
+[33mcommit c3a01eb6901ec840c79248e54596b6acf73ec535[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Tue Mar 10 19:04:57 2026 +0000
+
+    updatsss
+
+[33mcommit 1137977877f38454ca3d322ececb690130627866[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Tue Mar 10 19:03:18 2026 +0000
+
+    updatesss
+
+[33mcommit 5833190c4974ab8b566377322307f8ee54ef6ff4[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Mon Feb 9 11:34:16 2026 -0600
+
+    Update Dockerfile
+
+[33mcommit f2582fa2ed7e5304d345dfe7f0c111d8e11a7942[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Mon Feb 9 11:28:58 2026 -0600
+
+    Create Dockerfile
+
+[33mcommit d87ada8836bec8bc2ea680af338e3eb9925ab245[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Thu Feb 5 20:33:54 2026 +0000
+
+    better desc, and some.
+
+[33mcommit 048bdfe1591777310f45caea9f84d2956c886d98[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Thu Feb 5 03:15:35 2026 +0000
+
+    it works!
+
+[33mcommit c633db9aa9a65ef07e4f11843c5f0c80ae12c7d7[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Thu Feb 5 03:14:42 2026 +0000
+
+    working 1.21.10
+
+[33mcommit 5bbb0a4e606873a8d798a6b67688566c2c314ec6[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Wed Feb 4 20:09:22 2026 +0000
+
+    1.21.10!!!!
+
+[33mcommit a83c21bf9cff6e92e73b43efc6c87bfbade8a7a6[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Wed Feb 4 20:01:25 2026 +0000
+
+    Add .gitignore to exclude server JARs from tracking
+
+[33mcommit 8635bd4087a5e3fed7b3119cb5d5e62e1cf8ca2e[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Wed Feb 4 19:05:34 2026 +0000
+
+    fixed
+
+[33mcommit f130ccfba85558a16fbf0ed1695668834ec012aa[m
+Author: JmooALT <franciscocrk12@gmail.com>
+Date:   Wed Feb 4 18:59:53 2026 +0000
+
+    stuff
+
+[33mcommit 73f42b06704b6b9f8a99182ff155a2f3666e0b6a[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Fri Jan 23 14:23:20 2026 -0600
+
+    Update readme.md
+
+[33mcommit 4cae9e0c56943023b56431add479ce97a4b60d4d[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Fri Jan 23 14:22:01 2026 -0600
+
+    Update readme.md
+
+[33mcommit b229b7ca00ed5c16defc1f1394344b862aa68b8e[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:36:19 2025 -0600
+
+    Update readme.md
+
+[33mcommit 025391859db450540af7e5c059308f6c9aebf6ce[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:35:05 2025 -0600
+
+    Update readme.md
+
+[33mcommit 71d797b881315b7d00c6c8a8b6c6867c0489f8bf[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:29:56 2025 -0600
+
+    Update readme.md
+
+[33mcommit 8f096c2d4b01694acbd42d231378183e1d4ac615[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:29:37 2025 -0600
+
+    Update readme.md
+
+[33mcommit 9cd16e38a30d43c6c472ba207e28a90a489820f2[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:28:15 2025 -0600
+
+    Update readme.md
+
+[33mcommit 26b8b23476037294c6909daac6d55b0829bcadd3[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:20:48 2025 -0600
+
+    Update readme.md
+
+[33mcommit 36dea660fd24f112fcc7b94e9f7f9eae91e3198b[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 21:14:29 2025 -0600
+
+    Update readme.md
+
+[33mcommit 1a55ae610400e503199aa1b07f2d4aa46bced4fa[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 02:39:03 2025 -0600
+
+    Update NPC details and notes in readme
+    
+    Clarified NPC information and updated notes section.
+
+[33mcommit 9e7db98c0ad3f0a1557bbfe2a027eec228e55028[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 02:14:29 2025 -0600
+
+    Update readme to simplify link instructions
+    
+    Removed unnecessary instructions for changing links.
+
+[33mcommit c8ab6f7b15ea579251af36a1679b831c78e94e75[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 02:13:51 2025 -0600
+
+    Refactor readme formatting and section headers
+    
+    Updated section headers and removed unnecessary line breaks in the readme.
+
+[33mcommit f79942c02070a8002cc0fe890a262c99ac3a4937[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 02:12:21 2025 -0600
+
+    Fix formatting and update instructions in README
+
+[33mcommit 8629b0f947faffcb618c7be0b0835b69d7e5d62c[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 02:10:06 2025 -0600
+
+    Enhance README with setup and plugin information
+    
+    Updated README with server setup instructions and plugin details.
+
+[33mcommit 6ac38a39d02e0e6a70961b4f6097ef8e3dccb576[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Wed Dec 31 07:51:10 2025 +0000
+
+    Sync changed server/world/plugin files
+
+[33mcommit ab5092b677248c86d1271796cdf766e55563fb56[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Tue Dec 30 23:09:29 2025 +0000
+
+    Update binary files for nlogin database and server icon
+
+[33mcommit 79973526ebfaf971ee936b96263e8e6ceea0f93f[m
+Author: notajmoaltformakingaserver <franciscocrk12@gmail.com>
+Date:   Tue Dec 30 22:17:44 2025 +0000
+
+    whole server
+
+[33mcommit 339597e8b412be5a88309bf7bf0b2ebe8d5bbdc6[m
+Merge: e420ae2 59b73d0
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Sun Jun 22 14:16:58 2025 -0500
+
+    Merge pull request #1 from dragon731012/patch-1
+    
+    added startup script
+
+[33mcommit 59b73d0719500436987efd7a477548386904e73a[m
+Author: Potato. <105754685+dragon731012@users.noreply.github.com>
+Date:   Sun Jun 22 10:00:11 2025 -0500
+
+    Update startup.sh
+
+[33mcommit f7511919a2c1d21ac169a9d8804fdefa61f89782[m
+Author: Potato. <105754685+dragon731012@users.noreply.github.com>
+Date:   Sun Jun 22 09:53:40 2025 -0500
+
+    Create startup.sh
+
+[33mcommit e420ae2394dbafe45f5bad3b07ad2b430e68225b[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Wed Jun 18 10:02:01 2025 -0500
+
+    Update config.yml
+
+[33mcommit ae4004942d9514416695a8a27a0275067a2b7511[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 11:07:10 2025 -0500
+
+    Update listeners.toml
+
+[33mcommit 184d9ce469adf43f296e981a73674746f6712836[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 11:01:44 2025 -0500
+
+    Update index.html
+
+[33mcommit 5dbf442b1f8c4835699432d0736d371c6b6b381d[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 11:01:06 2025 -0500
+
+    Update index.html
+
+[33mcommit f966fe07a0adad87e01ffa22b2c0b6ed78f6ed84[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 11:00:14 2025 -0500
+
+    Update index.html
+
+[33mcommit e432e2b6ad5d9c00d935729aa9a83fc937ae9de9[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 11:00:05 2025 -0500
+
+    Update index.html
+
+[33mcommit 555885fe0b6483d337a1c37a1633c5106b94178b[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 10:59:52 2025 -0500
+
+    Update index.html
+
+[33mcommit a3e180c64b48f4d63b4ed602502a32db21c74a3b[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 10:47:35 2025 -0500
+
+    Update readme.md
+
+[33mcommit 018d4691eb4cc2ee58349ec8b17713e977a5a262[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Mon Jun 16 15:45:00 2025 +0000
+
+    Wadwdwd makes the entire server in 4 minutes
+
+[33mcommit b7a4c2c3ee39e7cb7df27cfa6affb9149fb8d299[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Sun Jun 15 18:57:39 2025 -0500
+
+    Update readme.md
+
+[33mcommit a131dee87ca26a8f224ae4d3e46a958d654600ed[m
+Author: wadwdwd1 <imrbk123abc@proton.me>
+Date:   Sun Jun 15 18:57:06 2025 -0500
+
+    Create readme.md

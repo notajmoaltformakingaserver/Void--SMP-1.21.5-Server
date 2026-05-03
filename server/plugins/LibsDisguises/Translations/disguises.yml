@@ -731,3 +731,9 @@
 
 # Name for the RideableMinecart EntityType, this is used in radius commands
 "RideableMinecart": "RideableMinecart"
+
+# Name for the CamelHusk EntityType, this is used in radius commands
+"CamelHusk": "CamelHusk"
+
+# Name for the ZombieNautilus EntityType, this is used in radius commands
+"ZombieNautilus": "ZombieNautilus"

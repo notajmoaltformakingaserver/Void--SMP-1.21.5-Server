@@ -8,6 +8,10 @@ enabled-worlds:
     - 'world'
     - 'world_nether'
     - 'world_the_end'
+    - 'spawn'
+    - 'plots'
+    - 'survival'
+    - 'anarchy'
 
 #the amount of threads for the chunk processor to use - using more threads processes chunks faster, but increases CPU usage
 #-1 is automatic

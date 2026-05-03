@@ -1,7 +1,27 @@
-# This file stores custom item aliases.
-# Note: You cannot alias an item to another entry in this file.
-
+# EssentialsX 1.21.1 Compatible customitems.yml
 aliases:
   bluepaint: blue_dye
   snad: sand
   breakfast: cooked_porkchop
+  dih: end_rod
+  grum: dirt
+  
+  # Sharpness level capped at 255 for standard command safety
+  Jmo_fr: netherite_sword[enchantments={levels:{"minecraft:sharpness":255,"minecraft:unbreaking":255,"minecraft:fire_aspect":255,"minecraft:looting":255,"minecraft:mending":1,"minecraft:vanishing_curse":1}}]
+  
+  op_armor: netherite_chestplate[enchantments={levels:{"minecraft:protection":255,"minecraft:unbreaking":255,"minecraft:mending":1,"minecraft:vanishing_curse":1}},trim={material:"minecraft:quartz",pattern:"minecraft:coast"}]
+  
+  reaper_sythe: netherite_hoe[custom_name='{"text":"Reaper's Sythe","color":"green","bold":true}',lore=['{"text":"This item is so OP, its almost unfair!","color":"red","italic":true}'],enchantments={levels:{"minecraft:sharpness":10,"minecraft:unbreaking":10,"minecraft:fire_aspect":10,"minecraft:looting":10,"minecraft:mending":1,"minecraft:efficiency":10,"minecraft:sweeping_edge":10,"minecraft:fortune":10,"minecraft:knockback":10}},attribute_modifiers={modifiers:[{type:"minecraft:generic.attack_damage",amount:1000,operation:"add_value",id:"reaper_damage",slot:"mainhand"},{type:"minecraft:generic.attack_speed",amount:1000,operation:"add_value",id:"reaper_speed",slot:"mainhand"}]},hide_additional_tooltip={},unbreakable={}]
+
+  blink: ender_pearl[custom_name='{"text":"Blink","color":"aqua","bold":true}',enchantments={levels:{"minecraft:unbreaking":10,"minecraft:mending":1,"minecraft:vanishing_curse":1}},lore=['{"text":"A magical pearl that allows you to teleport!","color":"dark_aqua","italic":true}'],hide_additional_tooltip={},unbreakable={}]
+
+  ban_hammer: netherite_axe[custom_name='{"text":"Ban Hammer","color":"red","bold":true}',enchantments={levels:{"minecraft:sharpness":255,"minecraft:unbreaking":255,"minecraft:fire_aspect":255,"minecraft:looting":255,"minecraft:mending":1,"minecraft:vanishing_curse":1}},lore=['{"text":"The ultimate tool for banning players!","color":"dark_red","italic":true}'],attribute_modifiers={modifiers:[{type:"minecraft:generic.attack_damage",amount:1000,operation:"add_value",id:"ban_damage",slot:"mainhand"},{type:"minecraft:generic.attack_speed",amount:1000,operation:"add_value",id:"ban_speed",slot:"mainhand"}]},hide_additional_tooltip={},unbreakable={}]
+
+  # Dirt is now officially food in 1.21
+  edible_dirt: dirt[custom_name='{"text":"Edible Dirt","color":"#8B4513","bold":true}',lore=['{"text":"A strange block of dirt that can be eaten!","color":"#5C4033","italic":true}'],food={nutrition:4,saturation:2,can_always_eat:true}]
+
+  idk: barrier[custom_name='{"text":"I have no idea what this item does...","color":"dark_purple","bold":true}',lore=['{"text":"Seriously, I have no clue what this item is for.","color":"dark_purple","italic":true}'],enchantment_glint_override=true]
+
+  totem_dirt: dirt[custom_name='{"text":"Totem of Dirt","color":"green","bold":true}',lore=['{"text":"A totem that protects you from death... but it's made of dirt!","color":"dark_green","italic":true}'],enchantment_glint_override=true]
+
+  holycow: cow_spawn_egg[custom_name='{"text":"Holy Cow Spawn Egg","color":"yellow","bold":true}',lore=['{"text":"A spawn egg that summons a holy cow!","color":"gold","italic":true}'],entity_data={id:"minecraft:cow",CustomName:'{"text":"Holy Cow","color":"yellow","bold":true}',Health:200f,Attributes:[{id:"minecraft:generic.max_health",base:200.0},{id:"minecraft:generic.movement_speed",base:0.3}]}]

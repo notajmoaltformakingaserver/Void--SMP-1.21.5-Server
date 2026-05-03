@@ -63,36 +63,21 @@ OneBlock:
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -9100517908471817605
+  seed: -1728877844488740754
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 137.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 0.5990707780099389
+    y: 65.0
+    z: 0.7109681901350888
+    pitch: 4.499999
+    yaw: 0.7470703
   spawning:
-    ambient:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -134,11 +119,11 @@ Plots:
   seed: -1622717322559567132
   spawn-location:
     ==: MVSpawnLocation
-    x: 304.0
+    x: -43.35343746928439
     y: 65.0
-    z: -240.0
-    pitch: 0.0
-    yaw: 0.0
+    z: -73.73842784620744
+    pitch: 4.349986
+    yaw: 4.349997
   spawning:
     misc:
       spawn: true
@@ -152,7 +137,7 @@ Plots:
       exceptions: []
   world-blacklist: []
   version: 1.2
-gimu:
+anarchy:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -173,85 +158,27 @@ gimu:
   generator: ''
   hidden: false
   hunger: true
-  keep-spawn-in-memory: true
+  keep-spawn-in-memory: false
   player-limit: -1
   portal-form: all
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -461451122662307906
+  seed: -1541916761
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: -60.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -724.5427831490291
+    y: 60.0
+    z: -288.6119732593976
+    pitch: -1.5000186
+    yaw: 0.8996582
   spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-  world-blacklist: []
-  version: 1.2
-speedrun:
-  adjust-spawn: true
-  alias: ''
-  allow-advancement-grant: true
-  allow-flight: false
-  allow-weather: true
-  anchor-respawn: true
-  auto-heal: true
-  auto-load: true
-  bed-respawn: true
-  biome: ''
-  difficulty: easy
-  entry-fee:
-    enabled: false
-    amount: 0.0
-    currency: '@vault-economy'
-  environment: normal
-  gamemode: survival
-  generator: ''
-  hidden: false
-  hunger: true
-  keep-spawn-in-memory: true
-  player-limit: -1
-  portal-form: all
-  pvp: true
-  respawn-world: ''
-  scale: 1.0
-  seed: 3813349884291848160
-  spawn-location:
-    ==: MVSpawnLocation
-    x: -32.0
-    y: 71.0
-    z: 48.0
-    pitch: 0.0
-    yaw: 0.0
-  spawning:
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -271,12 +198,138 @@ speedrun:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
+  world-blacklist: []
+  version: 1.2
+spawn:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: normal
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  player-limit: -1
+  portal-form: all
+  pvp: false
+  respawn-world: ''
+  scale: 1.0
+  seed: -5153656266430267231
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 9.37976110710212
+    y: 7.0
+    z: 13.499698552972404
+    pitch: -0.8999782
+    yaw: -90.0024
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+  world-blacklist: []
+  version: 1.2
+survival:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: normal
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  seed: 213159087
+  spawn-location:
+    ==: MVSpawnLocation
+    x: -630.8602665806285
+    y: 116.0
+    z: -65.04291869944906
+    pitch: 1.0499973
+    yaw: 179.40002
+  spawning:
+    ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -382,7 +435,7 @@ world_nether:
   generator: ''
   hidden: false
   hunger: true
-  keep-spawn-in-memory: true
+  keep-spawn-in-memory: false
   player-limit: -1
   portal-form: all
   pvp: true
@@ -396,12 +449,7 @@ world_nether:
     z: 0.0
     pitch: 0.0
     yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
+  spawning: {}
   world-blacklist: []
   version: 1.2
 world_the_end:

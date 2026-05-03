@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1776135163916
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776136194039
+  login: 1776136076246
+money: '1002225.909999999900000000000000000'
+last-account-name: 2025IDK
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 3.546294484562548
+  y: 69.40268290316554
+  z: 0.7879369376526741
+  yaw: 47.84711456298828
+  pitch: 25.799976348876953
+logoutlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 96.02388737549366
+  y: 65.0
+  z: -84.50671905233419
+  yaw: 158.55242919921875
+  pitch: 0.05347402021288872
+nickname: §f2025IDK

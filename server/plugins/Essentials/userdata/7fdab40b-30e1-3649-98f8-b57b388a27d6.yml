@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1776135674860
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776136008937
+  login: 1776139289047
+money: '0.0'
+last-account-name: NotYimo
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 98.17035493438362
+  y: 69.99982197519601
+  z: -101.37762409470072
+  yaw: -0.135986328125
+  pitch: 67.02350616455078
+logoutlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 100.5
+  y: 65.2013
+  z: -99.5
+  yaw: -111.47881317138672
+  pitch: 39.712554931640625
+nickname: §1§lN§9§lo§1§lt§9§lY§1§li§9§lm§1§lo

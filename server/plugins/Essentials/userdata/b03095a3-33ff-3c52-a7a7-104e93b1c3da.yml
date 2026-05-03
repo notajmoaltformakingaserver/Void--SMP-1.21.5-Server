@@ -9,31 +9,31 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: false
+baltop-exempt: true
 timestamps:
-  lastteleport: 1773263709735
+  lastteleport: 1776141708687
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1773290422289
-  login: 1773290157323
-money: '0'
+  logout: 1776146020643
+  login: 1776145787551
+money: '0.0'
 last-account-name: Jmo_fr
 logoutlocation:
-  world: dac8053b-c7c1-4eca-968d-3979da363a1a
-  world-name: Plots
-  x: -23.904246704013993
-  y: 71.98025666799549
-  z: -165.10270214191735
-  yaw: 168.6001434326172
-  pitch: 32.54999923706055
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 8.815235722409607
+  y: 7.0
+  z: 1.8777616286942984
+  yaw: -15.450145721435547
+  pitch: -6.9000244140625
 lastlocation:
-  world: dac8053b-c7c1-4eca-968d-3979da363a1a
-  world-name: Plots
-  x: -33.51609060353087
-  y: 70.84895391203698
-  z: -101.27513096416736
-  yaw: -7.973056793212891
-  pitch: -90.0
-nickname: §a§lJmo_fr
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -0.7896857153119647
+  y: 65.0
+  z: 5.076479245747198
+  yaw: -166.65274047851562
+  pitch: 18.14999008178711
+nickname: §2§lJmo§8§l_§a§lfr

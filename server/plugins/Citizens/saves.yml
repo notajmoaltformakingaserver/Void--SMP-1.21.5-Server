@@ -1,29 +1,22 @@
 # Citizens NPC Storage
-last-created-npc-id: 132
+last-created-npc-id: 145
 npc:
-  '126':
+  '134':
     metadata:
-      protected: false
+      cached-skin-uuid: 11b18692-693e-4046-827d-b047f3b9541f
+      cached-skin-uuid-name: farmy
     traits:
       owner:
-        uuid: a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-      sentinel:
-        stats_attackAttempts: 21371
-        stats_damageTaken: 7855.695156097412
-        protected: false
-        reach: 15.0
-        stats_punches: 4255
-        stats_damageGiven: 792.279999816461
-        stats_timesSpawned: 50
-        stats_ticksSpawned: 240343
-        allTargets:
-          targets:
-          - PLAYER
-          - NPC
+      skintrait:
+        signature: tLiHSzBQ2idgqLGMEqbm4/V/NfyPzjJ8r+5iOJ8Ns2ozccnBn3YLdZR6XJm7EtHpcR2GkqXUFjK7DcNPKuYM1lrZoFX9Pjd1809RDyymvPkcdieEuSQe2xbYKbB9az3rs58M3pQHL+EKOkDoFSQMc4evicGNljBuzaKwdCIXmos0o28vQgQpXprM/84Xj3vpuIztWmZQFdFDLwV6+XB5oLhMPEOLh6vzFoPK9HLPGJZ8fdI9jeM20YWBt0HSNJvKm2EFQi2Cocry5Vroh5YR4yaBwni+OS5Yb2ET1qdNfCaoAbYUYTrwRgJTTTXTtNefMT9MyK5pxdUFwr3bnqHroEol2XUtk4ZFsaBZC6Xvm4GgNQvyPliq6D+9GjNwupx6OLjNCcYKYN8UrjjllMpbsgZyrX+Dmgg/w4AeogtbexgZaT3D8ITA6bJSJ43FB/nJchVWw2/CzhKxSb1zugVi6XH8v52qnXQwF76/TnBd4Bg/uyAq2rl9ggiRYRo93nKef2/of+Ym9faon4Z6XhtVi98HPOYB8ngLc+OHrPbP/M3Niob30qjsFBILni9dD1yiQ0YAFkp2RpOyPZ2px3pKPVGbeYX298v5BG3MAZ1qG7PbOXzXKc8vuzyrUyR994Q48Jv6H86OdC0jHY5ifkgjQOLM1knVadYIFYEX5pOs7a4=
+        skinName: farmy
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3NTk1ODQwODMzNSwKICAicHJvZmlsZUlkIiA6ICIxMWIxODY5MjY5M2U0MDQ2ODI3ZGIwNDdmM2I5NTQxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXJteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmM0Njg3NWViOWFjNDQzNWM5MWQ3NmFhYTljOGNhOGY5MjViODVkMjVkNjBjYjA1MDM0NTQ3ZmZkZTUyODcxIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
       lookclose:
+        enabled: true
         randomPitchRange:
         - 0.0
         - 0.0
@@ -31,46 +24,106 @@ npc:
         - 0.0
         - 360.0
       location:
-        worldid: 23396cec-ec4b-481e-a7ba-2541314f0cbf
-        x: 64.8497
-        y: -60.0
-        z: 36.1761
-        bodyYaw: 299.5132
-        pitch: 28.2
-        yaw: -60.4868
-      type: GIANT
-    traitnames: owner,scoreboardtrait,spawned,sentinel,rotationtrait,lookclose,location,type,chunktickettrait
-    name: Giant
+        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
+        x: 21.7605
+        y: 11.0
+        z: 21.587
+        bodyYaw: 139.10922
+        pitch: -4.0518
+        yaw: 122.6754
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: Survival
     navigator:
       usedefaultstuckaction: false
       speedmodifier: 1.0
       avoidwater: false
-    uuid: 0c4ebef6-9878-4e50-906d-198a251650ed
-  '132':
+    uuid: a3369502-8029-4d84-b705-785f7a77fb22
+  '133':
     metadata:
-      cached-skin-uuid: 7c76259b-7309-4334-b44f-8f3b7d8c8980
-      respawn-delay: 0
-      protected: false
-      cached-skin-uuid-name: 8d263995-b65a-490c-b7bb-dd4668676ff2
+      cached-skin-uuid: c8e0da60-0e65-429a-a4b0-89d6cc25a114
+      cached-skin-uuid-name: builder
     traits:
       owner:
         uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-      sentinel:
-        stats_attackAttempts: 8103
-        stats_damageTaken: 10927.979636347161
-        protected: false
-        stats_punches: 137
-        stats_damageGiven: 326.8723568916321
-        range: 1.0
-        stats_timesSpawned: 154
-        stats_ticksSpawned: 214465
       skintrait:
-        signature: QLN7GoSOdkF8iRR1IK5blu06EIgynPG0Fq5wCuynMf0AA+3hoWdM8ik/UYRcDF7GDP8AlbfV+B6HVUfvKyqkNi4/ngn/GbcaOjapaXuRTVeKb+Y2vitGztbRqxj67bhvs4j9MSi0kbHHO7miWbjgt4NMWfJH80U0f/i6CZBYpILR2ZqBhoxVbbYLO1ZfsGchJDMpNTBpRcbzTSYMi0zaBBhPdZpmTUkElAZ/adqDQMz1bgHl2bRVkPN6kYUKfh8BwZMVO3i+0n4armqsAbPwDp51ngthmH4rCHP7ZASKkpisr7K3IgfdXwgceLfxA7taWbKSt0qxJJa6ZEI1E4C0TP6l24jbcubwKGiMwcOt7bVlCwu8rtrOmQl481MwqYD5KLZGb3/2ZRkYdS47Rkbznx9dIruOODkGij4JCyq2NaPX0ZJE6mFLlAPwKVEZRllDwj/UuiFrx+6atp5FSVeVqnzKM0/UPzlpGgWv683hmgi9ubqpbEDM6NryqkUtl0rgG0KDZHuXFuH7xkgBCZys+SjbOJUkj3GI4Ena8FQG2Hs73+5ZgHqF6Y1arntuj56zH7iRmaS+7VAUhUOKjM/LzpLS9Q2bL7SXboOUj9bSn+eluNWU80kOhzsFr4KkmoUT+hJGhg/iKBuqsU7etCgKJrY1zRpknsDRrpp4Tx6qdt4=
-        skinName: 8d263995-b65a-490c-b7bb-dd4668676ff2
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2NzEzNTk3Mjk0MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWIwYThiNGUzOWUzN2NmZDJiZDVkNTNhYjlmNTBhNmMwMGQzYTM0YzU4NTYzMmQyNDUyYTY0YTVmNjRjYThkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        signature: Ymh7a/p4MbCNwqD4xaMjM5hAKODAE9+BRqpcL7AktpCkqehFAUGu85NuxovQrLX8hih9koCY8Qn3vlf6Ru3q3Jz2UWkCcd084ncOqXyu3sR7u9LpOO0FwGA+Ogah9yWRNy1CcDMmmoAF0GzkDCBNe2SbYc13L6EyYq5No8AQTB6YwdRU3F8v4CTKQ+I2Febf2GO8iOX0EnP4Bv4igvLVYB4o2h4w/wbKd2AYvwx7ncKs9zAi+8DJlJq9rvRoMnZvJWQUbxDW968ekQLLUwN6FxpHWeV/xkZ3iGah+SXkQ1UEisARiLDlUYZOSk/qiWCKQ/2hsHL55+TlzGcFvXc2G0NW8jdoepkD7LAiRdZXqjRLMLU0xyUlW5drYRP958OqozoL3eRn2AMh/IIkUyRqiA419OtCiIr+jBbAibgNz8QIIogJFRhUAcm36FUu2NaRpmjsIqnip9dRBpRN8icQIWl2COQJkKGgGjijZwfmBlRcwm4Mfi9Cen7SDjT1EeKcwfOoJVMh8222N4YzlvAe4hiLv2tq8ObaKEK2R4zess/pwIFNYjZlNEX+tMh8+SiZbSLHT5ANqPVTBY/43LWB1OvWHBMI6t6mnm2bcAYC+vTyJ+hmMUr6h94rQGqMUDVgTpw4bAo8xmzIkPqq4jXJwHgxr+KiDN1eRhlnBYNhDt4=
+        skinName: builder
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3NTk1Nzk3MTM0NywKICAicHJvZmlsZUlkIiA6ICJjOGUwZGE2MDBlNjU0MjlhYTRiMDg5ZDZjYzI1YTExNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdWlsZGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmNDFlMjU2MWEyYzk1OWY1NmRmNWRjZGE1NjQzOTdkZjE5NzFkNjUyZTFhYzE1OWQ4YjRjNzQ3MzMwMjYwNzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
+        x: 21.7776
+        y: 11.0
+        z: 13.5329
+        bodyYaw: 86.543106
+        pitch: 3.3523
+        yaw: 86.5431
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: Creative
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 6e0ff842-f2e6-47b3-9613-bb41a472d5f5
+  '135':
+    metadata:
+      cached-skin-uuid: dd5e3b0b-6d24-40d2-a740-ebdbddb6e76b
+      cached-skin-uuid-name: hacker
+    traits:
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      skintrait:
+        signature: PgFj0qSyAhqeZurmjyWSS1VPvJgNP5+1GZH4PXw+YiyVG8gjvV15dx6Q7FfwIlDIwpds5jhcLoIoPxJOCFtwiZYQbQmKL9C3GDmKqR/v1fUgwXOg0cWcYWAvi7ZNB1fu8JYj0vPcRnAOWHFxFLUcEvRnsqLj80nXe4busT+L2hJN4fh7T1/KNOHqsBss+t7WWd849y0E5I1QUZ+ingnIGc+tuTfQ0YQ2+fyh2Rf8StYimFfj/8+t3EeWPlYg9DmjPAjdYZ9AapQxCuSUSuUTsDQdz1S9EoyZoURH1o47iley+8TF4WSxbsRAS6PZbf2qPDL7g8ktZfvMrNliOXofAA2kpH3T/7+tRpTeMuKCIU7J0uOA2JvTDXfnz3C0WUXFFsefMp/z3SJqbyqnLjNdbqQo2tkHO7mqi9Vp+B807Kh2wOkwI08IZFGuT77QDHiNfMIvc7slUroGMJcjwL5p8QiCAojsHPkgZSSNOzMSJ1rx/Rz8ejvpoMusEZ0ShXhIH6AMGFI9sh/HcUPQ+GxANYMxS89rIEFUVLSUwqtFD9Qmw65JDO7EzNexy5Q6CgfFl1fpdWZum7eqrQ9E25/2WyLt9VslzXNEN3T814EedelI2boUqnzmutaHCH71/LpupvY5hkjeGfLPgy5GhCMIYl1upbtmFvr6mS7q4SDWPO4=
+        skinName: hacker
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3NTk1ODY1MTA4NCwKICAicHJvZmlsZUlkIiA6ICJkZDVlM2IwYjZkMjQ0MGQyYTc0MGViZGJkZGI2ZTc2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWNrZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFiODBiMTFhZTFmOTNiZTA5MDU1ODQwMGEzYzI5ZmVhMWYzZTllODYwM2Y5YTE5MjdiYTc5ZjI2MGNmOWYwNSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
+        x: 21.4194
+        y: 11.0
+        z: 5.5087
+        bodyYaw: -0.64431
+        pitch: -6.689
+        yaw: -0.6443
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: Anarchy
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 9142881a-6620-419a-b3ad-c94c0903b24a
+  '142':
+    traits:
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      hologramtrait: {
+        }
       lookclose:
         enabled: true
         randomPitchRange:
@@ -80,70 +133,166 @@ npc:
         - 0.0
         - 360.0
       equipment:
-        chestplate:
-          amount: 1
-          editable_components:
-            edited: false
-            display_name: §4§l§k E §1§l The Lord's Chestplate. §4§l§k E
-          durability: 17
-          type: netherite_chestplate
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAVBUk1PUnQBQXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiIEUgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn0seyJ0ZXh0IjoiIFRoZSBMb3JkJ3MgQ2hlc3RwbGF0ZS4gIiwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19ibHVlIn0seyJ0ZXh0IjoiIEUiLCJvYmZ1c2NhdGVkIjp0cnVlLCJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn1dfXNxAH4AA3VxAH4ABgAAAAN0ABFtaW5lY3JhZnQ6bWVuZGluZ3QAFG1pbmVjcmFmdDpwcm90ZWN0aW9udAAUbWluZWNyYWZ0OnVuYnJlYWtpbmd1cQB+AAYAAAADc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAFzcQB+ABcAAAAEc3EAfgAXAAAAA3NxAH4AFwAAABE=
-        helmet:
-          amount: 1
-          editable_components:
-            edited: false
-            display_name: §4§l§k E §1§l The Lord's Helmet. §4§l§k E
-          durability: 21
-          type: netherite_helmet
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAVBUk1PUnQBPXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiIEUgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn0seyJ0ZXh0IjoiIFRoZSBMb3JkJ3MgSGVsbWV0LiAiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2JsdWUifSx7InRleHQiOiIgRSIsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19yZWQifV19c3EAfgADdXEAfgAGAAAABXQAF21pbmVjcmFmdDphcXVhX2FmZmluaXR5dAARbWluZWNyYWZ0Om1lbmRpbmd0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFW1pbmVjcmFmdDpyZXNwaXJhdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABcQB+ABtzcQB+ABkAAAAEc3EAfgAZAAAAA3EAfgAdc3EAfgAZAAAAFQ==
-        boots:
-          amount: 1
-          editable_components:
-            edited: false
-            display_name: §4§l§k E §1§l The Lord's Boot's. §4§l§k E
-          durability: 21
-          type: netherite_boots
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAVBUk1PUnQBPXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiIEUgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn0seyJ0ZXh0IjoiIFRoZSBMb3JkJ3MgQm9vdCdzLiAiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2JsdWUifSx7InRleHQiOiIgRSIsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19yZWQifV19c3EAfgADdXEAfgAGAAAABXQAF21pbmVjcmFmdDpkZXB0aF9zdHJpZGVydAAZbWluZWNyYWZ0OmZlYXRoZXJfZmFsbGluZ3QAEW1pbmVjcmFmdDptZW5kaW5ndAAUbWluZWNyYWZ0OnByb3RlY3Rpb250ABRtaW5lY3JhZnQ6dW5icmVha2luZ3VxAH4ABgAAAAVzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAA3NxAH4AGQAAAARzcQB+ABkAAAABcQB+ABxxAH4AG3NxAH4AGQAAABU=
         off_hand:
           amount: 1
-          type: shield
-        leggings:
-          amount: 1
-          editable_components:
-            edited: false
-            display_name: §4§l§k E §1§l The Lord's Legging's. §4§l§k E
-          durability: 20
-          type: netherite_leggings
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAVBUk1PUnQBQHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiIEUgIiwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImRhcmtfcmVkIn0seyJ0ZXh0IjoiIFRoZSBMb3JkJ3MgTGVnZ2luZydzLiAiLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2JsdWUifSx7InRleHQiOiIgRSIsIm9iZnVzY2F0ZWQiOnRydWUsImJvbGQiOnRydWUsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19yZWQifV19c3EAfgADdXEAfgAGAAAAA3QAEW1pbmVjcmFmdDptZW5kaW5ndAAUbWluZWNyYWZ0OnByb3RlY3Rpb250ABRtaW5lY3JhZnQ6dW5icmVha2luZ3VxAH4ABgAAAANzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAXNxAH4AFwAAAARzcQB+ABcAAAADc3EAfgAXAAAAFA==
+          type: flint_and_steel
         hand:
-          amount: 1
-          editable_components:
-            edited: false
-            display_name: §9§lThe PP CHOPPER
-          durability: 6
-          type: netherite_axe
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACVeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJUaGUgUFAgQ0hPUFBFUiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiYmx1ZSJ9XX1zcQB+AAN1cQB+AAYAAAADdAARbWluZWNyYWZ0Om1lbmRpbmd0ABNtaW5lY3JhZnQ6c2hhcnBuZXNzdAAUbWluZWNyYWZ0OnVuYnJlYWtpbmd1cQB+AAYAAAADc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAFzcQB+ABcAAAAFc3EAfgAXAAAAA3NxAH4AFwAAAAY=
+          amount: 64
+          type: tnt
       location:
-        worldid: 23396cec-ec4b-481e-a7ba-2541314f0cbf
-        x: 35.4805
-        y: -60.0
-        z: 33.5184
-        bodyYaw: 135.31622
-        pitch: -88.9964
-        yaw: 146.7541
-      type: PLAYER
-      inventory:
-      - amount: 1
-        editable_components:
-          edited: false
-          display_name: §9§lThe PP CHOPPER
-        meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACVeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJUaGUgUFAgQ0hPUFBFUiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6dHJ1ZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsImNvbG9yIjoiYmx1ZSJ9XX1zcQB+AAN1cQB+AAYAAAADdAARbWluZWNyYWZ0Om1lbmRpbmd0ABNtaW5lY3JhZnQ6c2hhcnBuZXNzdAAUbWluZWNyYWZ0OnVuYnJlYWtpbmd1cQB+AAYAAAADc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAFzcQB+ABcAAAAFc3EAfgAXAAAAA3NxAH4AFwAAAAY=
-        durability: 6
-        type: netherite_axe
-    traitnames: owner,scoreboardtrait,spawned,sentinel,rotationtrait,skintrait,lookclose,equipment,type,inventory,targetable,location,chunktickettrait
-    name: Yimo
+        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
+        x: 3.4172
+        y: 7.0
+        z: 7.2031
+        bodyYaw: 286.77646
+        pitch: -4.7717
+        yaw: 298.762
+      text:
+        speech-bubbles: true
+        realistic-looking: true
+        send-text-to-chat: false
+        text:
+        - HELP ME IM A REAL HUMAN STUCK INSIDE THIS BABY ZOMBIE AHHHH!!!!!!!!
+      type: ZOMBIE
+      waypoints:
+        provider: wander
+        wander: {
+          }
+      age:
+        age: -24000
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,lookclose,equipment,type,inventory,waypoints,hologramtrait,location,text,age,chunktickettrait
+    name: HELP ME!
     navigator:
       usedefaultstuckaction: false
       speedmodifier: 1.0
       avoidwater: false
-    uuid: 8d6778d3-0222-4109-b789-07989a342bb5
+    uuid: db16a72e-169e-449d-8bca-bc775b2a895b
+    metadata:
+      respawn-delay: 2
+      protected: true
+  '143':
+    metadata:
+      cached-skin-uuid-name: 65b19065-e392-4a5f-b1f1-dc9531360bc9
+    traits:
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      commandtrait:
+        commands:
+        - command: /say You better read dem rules..
+          hand: RIGHT
+        - command: say You better read dem rules..
+          hand: RIGHT
+      skintrait:
+        signature: Xv1z6RGI7BbOB82QRWvdxVd9VJR4/IX/yKT12Sney14wQR5u8fEJQ9vRVR63bwGZE52j2ecjSuh5DsoX25rpThL5jONaDf6sKiYB1ZnTm8jDA6aC3MUWbQOvUcs3SD+eIW/KYL+U4k5hcVGhMUN0fvNBr/v9lbGgU/YXqJd3mOrJUIWVp2WrcO+JYbLg7yAePXFsvVGgOtYS+lTU/4xtAH+KBWXOjPiQGvNzX1g8/NoRwCNuIiuq82n/3gX+dm6iQiuoxT0DEGf7wCzLxqw89Mm3gQ/KMGOuRXw3dxZka/w/0WMYnlgnJhyJgCiFA7ZhYLIdENJoHUVSxeYHHOtYh+k7KPN2D6Tw3pzbHL0ZtHy1qWgrz2iXQCtbc6Kg+WbO9/jiJqq7zZJsaFymdwKo2zBPMTttSfrLd8xmbYrUq1XO7RejxDWVCpOk+jvcwB45nHhsA9sc96k9Lt8wTXmdS3+CA7/iRsx6yhzxuRytaI+3B1kRY2fPzRBMFSNCgyhBrgaSR0ULgzK42lCoTycBSvorlzVLBR6+edckqpCYjPvAWkjt9YmLfFqHJU0uCejoE6pNvRiIWqiyOUBS7JrihIkpMxWaszJ18gMfh1FiJiQlVEgNQa1cpyxPXBQApNcM/VmvN0w4QGl/1VnNE0NtZwbtssEzq8zbim2l/BV5rAs=
+        skinName: 65b19065-e392-4a5f-b1f1-dc9531360bc9
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3NjA0NTk0MDEzNywKICAicHJvZmlsZUlkIiA6ICJiZTQxM2Y4M2Y4ZWE0MjE0OGMwMjk0YTJiYzIyN2U2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWdodGJveTEwMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZTdhYWIwOGI0YWRiNTZmNTdmNDM5NTUwNmEzMWI3ODQzNzcwOTlhYzU4ZjA5N2IzNTljNzY2YTU2YzRiY2Y1IgogICAgfQogIH0KfQ==
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: 374a28ef-05b1-465a-a6d1-4f189b75bc86
+        x: -630.4885
+        y: 116.0
+        z: -70.5098
+        bodyYaw: -5.2837677
+        pitch: 0.0
+        yaw: -5.2838
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: Jmo_fr
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 8ad30e2f-f12c-40c5-a044-0d1b408e05bb
+  '144':
+    metadata:
+      cached-skin-uuid-name: 5df94e2c-0cb8-430d-9d55-2cd45a49b5e0
+      protected: false
+      removefromplayerlist: false
+      respawn-delay: 25
+    traits:
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      skintrait:
+        signature: QLN7GoSOdkF8iRR1IK5blu06EIgynPG0Fq5wCuynMf0AA+3hoWdM8ik/UYRcDF7GDP8AlbfV+B6HVUfvKyqkNi4/ngn/GbcaOjapaXuRTVeKb+Y2vitGztbRqxj67bhvs4j9MSi0kbHHO7miWbjgt4NMWfJH80U0f/i6CZBYpILR2ZqBhoxVbbYLO1ZfsGchJDMpNTBpRcbzTSYMi0zaBBhPdZpmTUkElAZ/adqDQMz1bgHl2bRVkPN6kYUKfh8BwZMVO3i+0n4armqsAbPwDp51ngthmH4rCHP7ZASKkpisr7K3IgfdXwgceLfxA7taWbKSt0qxJJa6ZEI1E4C0TP6l24jbcubwKGiMwcOt7bVlCwu8rtrOmQl481MwqYD5KLZGb3/2ZRkYdS47Rkbznx9dIruOODkGij4JCyq2NaPX0ZJE6mFLlAPwKVEZRllDwj/UuiFrx+6atp5FSVeVqnzKM0/UPzlpGgWv683hmgi9ubqpbEDM6NryqkUtl0rgG0KDZHuXFuH7xkgBCZys+SjbOJUkj3GI4Ena8FQG2Hs73+5ZgHqF6Y1arntuj56zH7iRmaS+7VAUhUOKjM/LzpLS9Q2bL7SXboOUj9bSn+eluNWU80kOhzsFr4KkmoUT+hJGhg/iKBuqsU7etCgKJrY1zRpknsDRrpp4Tx6qdt4=
+        skinName: 5df94e2c-0cb8-430d-9d55-2cd45a49b5e0
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2NzEzNTk3Mjk0MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWIwYThiNGUzOWUzN2NmZDJiZDVkNTNhYjlmNTBhNmMwMGQzYTM0YzU4NTYzMmQyNDUyYTY0YTVmNjRjYThkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      lookclose:
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+        x: 2.9959
+        y: -249954.5671
+        z: 24.5561
+        bodyYaw: -176.70285
+        pitch: 37.95
+        yaw: -176.7029
+      type: PLAYER
+      waypoints:
+        provider: linear
+        linear: {
+          }
+      targetable:
+        targetable: true
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,waypoints,targetable,chunktickettrait
+    name: Ob_enjoyer
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 0faa52ed-1a37-4976-8751-eb840412039c
+  '145':
+    metadata:
+      cached-skin-uuid: 65c7e768-2cf8-4ff4-bc24-cf1c39389fea
+      cached-skin-uuid-name: 6704e474-4159-47a5-b362-ae65d8e2bf6c
+    traits:
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      skintrait:
+        signature: QLN7GoSOdkF8iRR1IK5blu06EIgynPG0Fq5wCuynMf0AA+3hoWdM8ik/UYRcDF7GDP8AlbfV+B6HVUfvKyqkNi4/ngn/GbcaOjapaXuRTVeKb+Y2vitGztbRqxj67bhvs4j9MSi0kbHHO7miWbjgt4NMWfJH80U0f/i6CZBYpILR2ZqBhoxVbbYLO1ZfsGchJDMpNTBpRcbzTSYMi0zaBBhPdZpmTUkElAZ/adqDQMz1bgHl2bRVkPN6kYUKfh8BwZMVO3i+0n4armqsAbPwDp51ngthmH4rCHP7ZASKkpisr7K3IgfdXwgceLfxA7taWbKSt0qxJJa6ZEI1E4C0TP6l24jbcubwKGiMwcOt7bVlCwu8rtrOmQl481MwqYD5KLZGb3/2ZRkYdS47Rkbznx9dIruOODkGij4JCyq2NaPX0ZJE6mFLlAPwKVEZRllDwj/UuiFrx+6atp5FSVeVqnzKM0/UPzlpGgWv683hmgi9ubqpbEDM6NryqkUtl0rgG0KDZHuXFuH7xkgBCZys+SjbOJUkj3GI4Ena8FQG2Hs73+5ZgHqF6Y1arntuj56zH7iRmaS+7VAUhUOKjM/LzpLS9Q2bL7SXboOUj9bSn+eluNWU80kOhzsFr4KkmoUT+hJGhg/iKBuqsU7etCgKJrY1zRpknsDRrpp4Tx6qdt4=
+        skinName: 6704e474-4159-47a5-b362-ae65d8e2bf6c
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2NzEzNTk3Mjk0MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWIwYThiNGUzOWUzN2NmZDJiZDVkNTNhYjlmNTBhNmMwMGQzYTM0YzU4NTYzMmQyNDUyYTY0YTVmNjRjYThkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+      location:
+        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
+        x: 21.7099
+        y: 11.0
+        z: 29.3492
+        bodyYaw: -179.68436
+        pitch: -10.7066
+        yaw: -179.6844
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    name: One Block
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 6ae08f17-94f1-4303-9c1b-c3ea409e2cd5

@@ -1,7 +1,7 @@
-[22:17:11] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-7e01491e)...
-[22:17:11] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[22:17:12] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[22:17:13] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[04:37:39] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-7e01491e)...
+[04:37:39] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[04:37:39] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[04:37:40] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.lang.IllegalArgumentException: Image is not 64x64 (found 32x32)
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:301)
 	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82)
@@ -11,74 +11,122 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 32x32)
 	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:406)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:290)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[22:17:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[22:17:18] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[22:17:24] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EaglerXSupervisor.jar
+[04:37:40] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[04:37:41] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[04:37:45] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EaglerXSupervisor.jar
 com.velocitypowered.api.plugin.InvalidPluginException: Did not find a valid velocity-plugin.json.
 	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:65)
 	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:101)
 	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:436)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:307)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[22:17:29] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.0.8...
-[22:17:29] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[22:17:29] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[22:17:29] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.0.8 by lax1dude
-[22:17:29] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
-[22:17:29] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
-[22:17:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.23 by NickUC
-[22:17:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.7.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
-[22:17:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.7.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
-[22:17:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
-[22:17:30] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[22:17:30] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.0.8...
-[22:17:30] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[22:17:31] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[22:17:31] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
-[22:17:31] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
-[22:17:31] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
-[22:17:31] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
-[22:17:37] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 2.45s)
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.23
-[22:17:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
-[22:17:44] [Via-Mappingloader-1/INFO] [viaversion]: Loading block connection mappings ...
-[22:17:45] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
-[22:17:45] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[22:17:45] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[22:17:45] [EaglercraftXServer - Task Executor #0/INFO] [viabackwards]: Loading translations...
-[22:17:45] [EaglercraftXServer - Task Executor #0/INFO] [viabackwards]: Registering protocols...
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
-[22:17:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[22:17:46] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
-[22:17:46] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 1.21.11 (774)
-[22:17:46] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
-[22:17:46] [ViaVersion - Task Executor #2/WARN] [viaversion]: There is a newer plugin version available: 5.7.2, you're on: 5.7.1
-[22:17:46] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (35.89s)!
-[22:17:46] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x2b9c1da6, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
-[22:17:46] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
+[04:37:49] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.0.8...
+[04:37:49] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[04:37:49] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[04:37:52] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.0.8 by lax1dude
+[04:37:52] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
+[04:37:52] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
+[04:37:54] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.23 by NickUC
+[04:37:55] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.7.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[04:37:55] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.7.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[04:37:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
+[04:37:55] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:37:55] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.0.8...
+[04:37:55] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[04:37:56] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[04:37:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
+[04:37:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
+[04:37:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
+[04:37:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[04:38:00] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.39s)
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.23
+[04:38:01] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[04:38:02] [Via-Mappingloader-1/INFO] [viaversion]: Loading block connection mappings ...
+[04:38:03] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
+[04:38:03] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:38:03] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[04:38:03] [EaglercraftXServer - Task Executor #0/INFO] [viabackwards]: Loading translations...
+[04:38:03] [EaglercraftXServer - Task Executor #0/INFO] [viabackwards]: Registering protocols...
+[04:38:04] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[04:38:04] [EaglercraftXServer - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 1.21.11 (774)
+[04:38:04] [ViaVersion - Task Executor #0/WARN] [viaversion]: There is a newer plugin version available: 5.8.1, you're on: 5.7.1
+[04:38:04] [ViaVersion - Task Executor #1/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
+[04:38:04] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xce841e45, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
+[04:38:04] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
+[04:38:04] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (32.96s)!
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[04:38:07] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[04:41:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53374) has connected
+[04:41:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[04:41:24] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jmo_fr has successfully logged in.
+[04:41:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has connected
+[04:41:25] [Netty epoll Worker #2/WARN] [viabackwards]: (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[04:41:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:00:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53374): kicked from server survival: disconnect.timeout
+[05:00:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has disconnected
+[05:00:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:00:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53374) has disconnected: An internal error occurred in your connection.
+[05:00:41] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53374): read timed out
+[05:00:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:01:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53414) has connected
+[05:01:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:01:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:53414) has disconnected: You entered the incorrect password.
+[05:01:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:01:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:47176) has connected
+[05:01:55] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:02:02] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jmo_fr has successfully logged in.
+[05:02:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has connected
+[05:02:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:04:48] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:47176) has disconnected: An internal error occurred in your connection.
+[05:04:48] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:47176): read timed out
+[05:04:48] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has disconnected
+[05:07:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:57446) has connected
+[05:07:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:07:44] [nLogin - Task Executor #1/INFO] [nlogin]: The user Jmo_fr has successfully logged in.
+[05:07:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has connected
+[05:07:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:19:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:57446) has disconnected: An internal error occurred in your connection.
+[05:19:40] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:57446): read timed out
+[05:19:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has disconnected
+[05:19:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:39230) has connected
+[05:19:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:19:54] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jmo_fr has successfully logged in.
+[05:19:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has connected
+[05:19:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:22:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:39230) has disconnected: An internal error occurred in your connection.
+[05:22:40] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:39230): read timed out
+[05:22:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has disconnected
+[05:49:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:44510) has connected
+[05:49:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has connected
+[05:49:46] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jmo_fr has successfully logged in.
+[05:49:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has connected
+[05:49:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> auth has disconnected
+[05:53:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:44510) has disconnected: An internal error occurred in your connection.
+[05:53:40] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jmo_fr (/[0:0:0:0:0:0:0:1]:44510): read timed out
+[05:53:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jmo_fr -> survival has disconnected

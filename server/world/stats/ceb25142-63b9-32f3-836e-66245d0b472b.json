@@ -1,1 +1,99 @@
-{"stats":{"minecraft:picked_up":{"minecraft:dirt":7,"minecraft:trident":2,"minecraft:chicken":2,"minecraft:fishing_rod":1,"minecraft:leather":1,"minecraft:stone_shovel":1,"minecraft:beef":1,"minecraft:red_shulker_box":1,"minecraft:stone_pickaxe":1,"minecraft:stone_sword":1,"minecraft:stone_axe":1,"minecraft:mace":1,"minecraft:iron_bars":1,"minecraft:ladder":3},"minecraft:used":{"minecraft:grass_block":91,"minecraft:stone_sword":1,"minecraft:red_shulker_box":1,"minecraft:lava_bucket":1,"minecraft:chicken":1,"minecraft:trident":18,"minecraft:ender_chest":3,"minecraft:ladder":10,"minecraft:dirt":91,"minecraft:mace":1,"minecraft:fishing_rod":112,"minecraft:iron_bars":7},"minecraft:mined":{"minecraft:dirt":2,"minecraft:grass_block":5},"minecraft:dropped":{"minecraft:fishing_rod":2,"minecraft:iron_bars":1,"minecraft:chicken":1,"minecraft:ladder":1,"minecraft:dirt":1},"minecraft:killed":{"minecraft:chicken":2,"minecraft:cow":1},"minecraft:custom":{"minecraft:time_since_rest":71997,"minecraft:walk_one_cm":192668,"minecraft:leave_game":10,"minecraft:mob_kills":3,"minecraft:damage_taken":20,"minecraft:play_time":73153,"minecraft:damage_dealt":1224,"minecraft:open_shulker_box":1,"minecraft:jump":1079,"minecraft:time_since_death":71960,"minecraft:drop":6,"minecraft:open_enderchest":6,"minecraft:sprint_one_cm":94025,"minecraft:fall_one_cm":5500,"minecraft:total_world_time":73153,"minecraft:fly_one_cm":276753,"minecraft:crouch_one_cm":10809,"minecraft:sneak_time":3507,"minecraft:climb_one_cm":324,"minecraft:deaths":1}},"DataVersion":4556}
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:grass_block": 91,
+      "minecraft:stone_sword": 1,
+      "minecraft:leaf_litter": 1,
+      "minecraft:lava_bucket": 1,
+      "minecraft:chicken": 1,
+      "minecraft:trident": 21,
+      "minecraft:green_shulker_box": 1,
+      "minecraft:lapis_ore": 14,
+      "minecraft:mace": 1,
+      "minecraft:oak_log": 9,
+      "minecraft:iron_bars": 7,
+      "minecraft:red_shulker_box": 1,
+      "minecraft:diamond_axe": 6,
+      "minecraft:ender_chest": 3,
+      "minecraft:oak_sign": 2,
+      "minecraft:ladder": 10,
+      "minecraft:dirt": 91,
+      "minecraft:fishing_rod": 114
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 38061,
+      "minecraft:walk_one_cm": 266728,
+      "minecraft:leave_game": 15,
+      "minecraft:walk_under_water_one_cm": 201,
+      "minecraft:mob_kills": 7,
+      "minecraft:damage_taken": 225,
+      "minecraft:play_time": 112499,
+      "minecraft:damage_dealt": 2035,
+      "minecraft:open_shulker_box": 3,
+      "minecraft:jump": 1553,
+      "minecraft:time_since_death": 38030,
+      "minecraft:drop": 8,
+      "minecraft:open_enderchest": 8,
+      "minecraft:sprint_one_cm": 163305,
+      "minecraft:fall_one_cm": 7541,
+      "minecraft:total_world_time": 112499,
+      "minecraft:fly_one_cm": 535743,
+      "minecraft:walk_on_water_one_cm": 249,
+      "minecraft:crouch_one_cm": 17158,
+      "minecraft:sneak_time": 6212,
+      "minecraft:climb_one_cm": 653,
+      "minecraft:deaths": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:fishing_rod": 2,
+      "minecraft:orange_shulker_box": 1,
+      "minecraft:iron_bars": 1,
+      "minecraft:chicken": 1,
+      "minecraft:bone": 1,
+      "minecraft:ladder": 1,
+      "minecraft:dirt": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:diamond_axe": 1,
+      "minecraft:dirt": 7,
+      "minecraft:trident": 2,
+      "minecraft:fishing_rod": 1,
+      "minecraft:leather": 1,
+      "minecraft:bone": 1,
+      "minecraft:red_shulker_box": 1,
+      "minecraft:leaf_litter": 44,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:oak_log": 5,
+      "minecraft:iron_bars": 1,
+      "minecraft:chicken": 2,
+      "minecraft:player_head": 1,
+      "minecraft:copper_torch": 1,
+      "minecraft:stone_shovel": 1,
+      "minecraft:orange_shulker_box": 3,
+      "minecraft:beef": 1,
+      "minecraft:rotten_flesh": 6,
+      "minecraft:stone_sword": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:mace": 1,
+      "minecraft:ladder": 3,
+      "minecraft:end_rod": 1472,
+      "minecraft:gunpowder": 4,
+      "minecraft:green_shulker_box": 3
+    },
+    "minecraft:mined": {
+      "minecraft:dirt": 2,
+      "minecraft:grass_block": 5
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 2,
+      "minecraft:pillager": 1,
+      "minecraft:creeper": 1,
+      "minecraft:chicken": 2,
+      "minecraft:cow": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:pillager": 1
+    }
+  },
+  "DataVersion": 4671
+}

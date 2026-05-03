@@ -1,0 +1,16 @@
+name: Jmo_fr
+current: Spawn
+ignores: ''
+listen: Spawn
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2026/Apr/13 21:08:58

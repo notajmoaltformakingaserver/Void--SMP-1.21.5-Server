@@ -7427,3 +7427,62 @@
 
 # Description for the disguise option Interactive Box
 "Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location": "Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location"
+# A disguise option name, has description 'The variant of a zombie nautilus'
+"Zombie Nautilus Variant": "Zombie Nautilus Variant"
+
+# Description for the disguise option Zombie Nautilus Variant
+"The variant of a zombie nautilus": "The variant of a zombie nautilus"
+
+# Used for the disguise option Material
+"CAMEL_HUSK_SPAWN_EGG": "CAMEL_HUSK_SPAWN_EGG"
+
+# Used for the disguise option Material
+"COPPER_NAUTILUS_ARMOR": "COPPER_NAUTILUS_ARMOR"
+
+# Used for the disguise option Material
+"COPPER_SPEAR": "COPPER_SPEAR"
+
+# Used for the disguise option Material
+"DIAMOND_NAUTILUS_ARMOR": "DIAMOND_NAUTILUS_ARMOR"
+
+# Used for the disguise option Material
+"DIAMOND_SPEAR": "DIAMOND_SPEAR"
+
+# Used for the disguise option Material
+"GOLDEN_NAUTILUS_ARMOR": "GOLDEN_NAUTILUS_ARMOR"
+
+# Used for the disguise option Material
+"GOLDEN_SPEAR": "GOLDEN_SPEAR"
+
+# Used for the disguise option Material
+"IRON_NAUTILUS_ARMOR": "IRON_NAUTILUS_ARMOR"
+
+# Used for the disguise option Material
+"IRON_SPEAR": "IRON_SPEAR"
+
+# Used for the disguise option Material
+"NAUTILUS_SPAWN_EGG": "NAUTILUS_SPAWN_EGG"
+
+# Used for the disguise option Material
+"NETHERITE_HORSE_ARMOR": "NETHERITE_HORSE_ARMOR"
+
+# Used for the disguise option Material
+"NETHERITE_NAUTILUS_ARMOR": "NETHERITE_NAUTILUS_ARMOR"
+
+# Used for the disguise option Material
+"NETHERITE_SPEAR": "NETHERITE_SPEAR"
+
+# Used for the disguise option Material
+"PARCHED_SPAWN_EGG": "PARCHED_SPAWN_EGG"
+
+# Used for the disguise option Material
+"STONE_SPEAR": "STONE_SPEAR"
+
+# Used for the disguise option Material
+"WOODEN_SPEAR": "WOODEN_SPEAR"
+
+# Used for the disguise option Material
+"ZOMBIE_NAUTILUS_SPAWN_EGG": "ZOMBIE_NAUTILUS_SPAWN_EGG"
+
+# Used for the disguise option Potion Effect
+"minecraft:breath_of_the_nautilus": "minecraft:breath_of_the_nautilus"

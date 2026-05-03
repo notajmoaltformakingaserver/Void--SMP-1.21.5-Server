@@ -1,0 +1,15 @@
+prefix: "&7[&6TL&7]"
+
+locked_lore: "&7Template locked by: &f%player%"
+
+messages:
+  not_player: "&cOnly players can use this command."
+  no_template_in_hand: "&cYou must hold a smithing template in your hand!"
+  no_permission_lock: "&cYou don't have permission to lock templates."
+  no_permission_unlock: "&cYou don't have permission to unlock templates."
+  already_locked: "&cThis template is already locked!"
+  not_owner: "&cYou are not the owner of this template!"
+  locked_success: "&aTemplate locked by: &f%player%"
+  unlocked_success: "&aTemplate unlocked."
+  cannot_use_locked: "&cYou cannot use a locked template in the smithing table!"
+  cannot_copy_locked: "&cYou cannot duplicate a locked template!"
