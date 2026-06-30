@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:totem_of_undying": 1,
+      "minecraft:egg": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 2,
+      "minecraft:oak_log": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:oak_log": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 12032,
+      "minecraft:walk_one_cm": 46355,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 1395,
+      "minecraft:damage_taken": 640,
+      "minecraft:play_time": 14735,
+      "minecraft:jump": 216,
+      "minecraft:time_since_death": 12002,
+      "minecraft:sprint_one_cm": 29383,
+      "minecraft:fall_one_cm": 9093,
+      "minecraft:total_world_time": 14735,
+      "minecraft:fly_one_cm": 74744,
+      "minecraft:walk_on_water_one_cm": 868,
+      "minecraft:crouch_one_cm": 202,
+      "minecraft:sneak_time": 193,
+      "minecraft:deaths": 1
+    }
+  },
+  "DataVersion": 4671
+}

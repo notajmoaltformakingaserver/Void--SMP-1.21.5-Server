@@ -1,0 +1,48 @@
+# Enables or disables the AntiRedstone feature.
+enabled: true
+opbypass: true
+playerbypass: true
+# bypass-permission: "lightoptimizer.antiredstone.bypass"
+
+# Settings for functional blocks
+functional:
+  # Controls the functionality of pistons
+  pistons:
+    enabled: true
+  # Controls the functionality of sticky pistons
+  stickyPistons:
+    enabled: true
+  # Controls the functionality of observers
+  observers:
+    enabled: true
+  # Controls the functionality of dispensers
+  dispensers:
+    enabled: true
+  # Controls the functionality of droppers
+  droppers:
+    enabled: true
+  # Controls the functionality of hoppers
+  hoppers:
+    enabled: true
+
+# Block placement settings
+blockedPlacement:
+  enabled: true
+  blocks:
+    - PISTON
+    - STICKY_PISTON
+    - OBSERVER
+    - DISPENSER
+    - DROPPER
+    - HOPPER
+
+# Block functionality settings
+blockedFunction:
+  enabled: true
+  blocks:
+    - PISTON
+    - STICKY_PISTON
+    - OBSERVER
+    - DISPENSER
+    - DROPPER
+    - HOPPER

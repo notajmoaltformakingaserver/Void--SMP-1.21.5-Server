@@ -1,3 +1,10 @@
+FOLLOWING THESE RULES ARE MANDATORY
+AND ARE PUNISHABLE BY BAN OR WORSE.
+(UNLESS IN ANARCHY)
+STAFF MEMBERS MUST FOLLOW THE RULES
+EVEN IN ANARCHY.
+-----------------------------------
+RULES:
 No hacking / use of hacked clients
 No x-ray texture packs or mods
 No duping items
@@ -18,3 +25,24 @@ No inappropriate skins
 No abusing commands or plugins
 No sharing personal information 
 No trolling / intentional annoyance
+STAFF RULES:
+No using staff commands for personal gain.
+No using staff commands to help friends.
+No staff-assisted PvP.
+No using /vanish or /tp during combat.
+Document all bans and kicks with screenshots OR logs.
+Remain neutral during player disputes.
+Keep a professional tone when speaking to players.
+Do not share private staff discussions.
+Do not leak player IP addresses or personal data.
+Log all major world edits.
+Log all administrative changes.
+Follow the chain of command for reporting staff abuse.
+Report fellow staff privately rather than publicly.
+Maintain the minimum required weekly playtime.
+Do not grief or raid while in staff mode.
+Prioritize player support over personal gameplay.
+Always hear both sides of a story before taking action.
+--------------------------------------------------------
+If you see a player - staff breaking these rules, 
+REPORT TO JMO ASAP.

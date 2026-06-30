@@ -1,0 +1,212 @@
+# +-------------------------------------------------------------------------+
+# |                           ServerBooster                               |
+# |                  Advanced Performance Optimization                     |
+# +-------------------------------------------------------------------------+
+
+# General settings for the plugin
+general:
+  log-to-console: true
+  log-detailed: false
+  debug: false
+  lang: en
+  show-welcome-dialog: false
+  update-checker: true
+
+# Optimization Thresholds
+thresholds:
+  low-tps: 18.5
+  high-ping: 250.0
+
+# --- Modules ---
+
+# Entity Limiting & Optimization
+entities:
+  # General optimization logic
+  tracking-range: 35.0
+  check-frequency: 35
+  disable-ai: true
+  disable-tick: true
+  fix-ai-on-reload: true
+  
+  # Entity Limiter settings
+  limiter:
+    enabled: true
+    radius: 48
+    breeding-interval: 300
+    growth-interval: 300
+    force-spawn-deny: true
+    cancel-event-instead-of-remove: true
+    sheep-color-check: false
+    keep-sitting-entities: true
+    relative-age: false
+  
+  # Default limits applied to entities not listed in 'limits'
+  defaults:
+    age: -1
+    radius_max: 15
+    chunk_max: 8
+    cull: 5
+  
+  # Specific entity limits
+  limits:
+    ZOMBIE:
+      radius_max: 15
+      chunk_max: 4
+      cull: 0
+    SKELETON:
+      radius_max: 15
+      chunk_max: 4
+      cull: 0
+    CHICKEN:
+      radius_max: 10
+      chunk_max: 5
+      cull: 5
+    VILLAGER:
+      chunk_max: 6
+      cull: 15
+  
+  # Entities to ignore
+  ignore:
+    custom-named: true
+    invulnerable: true
+    villagers: false
+    armorstands: true
+    itemframes: true
+    drops: true
+    whitelist-types:
+    - WITHER
+    - ENDER_DRAGON
+
+# Chunk & World Optimization
+chunks:
+  packet-throttler:
+    enabled: true
+    packets-per-interval: 6
+    interval-ticks: 5
+    max-queued-packets: 48
+    worlds:
+    - world
+    - world_nether
+    - world_the_end
+  
+  dynamic-distance:
+    enabled: true
+    simulation:
+      min: 4
+      max: 8
+    view:
+      min: 6
+      max: 12
+    check-interval: 1200
+  
+  # Automatic chunk unloading for inactive areas
+  unloader:
+    enabled: false
+    interval-ticks: 6000
+    log-unloads: false
+    worlds:
+    - world
+    - world_nether
+
+# Hopper Optimization
+hoppers:
+  enabled: true
+  low-tps-only: true
+  sleep-cooldown-ticks: 20
+  deep-sleep-cooldown-ticks: 40
+  optimize-inventory-search: true
+  check-pickup-entities: true
+
+# Redstone Throttling
+redstone:
+  enabled: true
+  # Maximum updates per block per second before throttling
+  max-updates-per-second: 10
+  # How long to disable the clock for (in ticks)
+  throttle-duration: 100
+  # Should we log when a clock is throttled?
+  log-throttling: true
+
+# Packet Optimization (Requires ProtocolLib)
+packets:
+  metadata-throttle:
+    enabled: true
+    # Activate only when TPS is below this
+    tps-threshold: 18.0
+    # Minimum ticks between metadata updates for the same entity
+    min-interval-ticks: 5
+
+# Item Merging & Holograms
+item-merging:
+  enabled: true
+  merge-radius: 5.0
+  max-stack-size: 127
+  # Should we collapse item piles into a single visual item on the ground?
+  visual-stacking: true
+  hologram-format: <gray>{amount}x <white><name></white></gray>
+  
+  blacklist:
+  - DIAMOND
+  only-player-drops: false
+  glow:
+    enabled: true
+    color: AQUA
+    only-player-drops: true
+
+# Elytra Performance
+elytra:
+  enabled: true
+  max-speed: 2.5
+  notify-player: true
+
+# TPS Based Commands
+tps-commands:
+  enabled: false
+  commands:
+    '15.0':
+    - broadcast <red>Server is lagging! Reducing entity counts...</red>
+    - sb mobs forceoptimize
+
+# World Configuration Overrides
+world-overrides:
+  enabled: false
+  simulation-distance: 4
+  spawn-limits:
+    monsters: 50
+    animals: 10
+    water-animals: 5
+    ambient: 3
+  ticks-per:
+    animal-spawns: 400
+    monster-spawns: 1
+
+# Explosion Optimization
+explosions:
+  enabled: true
+  # Maximum item drops allowed per explosion (prevents item lag)
+  max-drops-per-explosion: 50
+  # Percentage of items to drop if over limit (0.5 = 50%)
+  drop-multiplier: 0.5
+  # Maximum explosions allowed per chunk per second
+  max-per-chunk-per-second: 5
+  # Should we optimize block physics calculations?
+  optimize-physics: true
+
+# Advanced Villager Optimization
+villagers:
+  enabled: true
+  # Distance to players before AI is disabled
+  freeze-radius: 16
+  # How often to check for players (in ticks)
+  check-interval: 40
+  # Should we disable trade restocking during lag?
+  optimize-trades-on-lag: true
+
+# Physics & Fire Throttling
+physics:
+  fire:
+    enabled: true
+    # Maximum fire spread/burn events per tick server-wide
+    max-events-per-tick: 20
+    # Monitor and log excessive fire events
+    log-high-activity: true

@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    yimoob:
+        min: {x: -49, y: -64, z: 51}
+        max: {x: 49, y: 319, z: 149}
+        members: {}
+        flags: {mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     ob_spawn:
         min: {x: -7, y: 68, z: -7}
         max: {x: 7, y: 68, z: 7}
@@ -17,4 +25,10 @@ regions:
         flags: {pvp: deny, mob-spawning: deny}
         owners: {}
         type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {mob-spawning: allow}
+        owners: {}
+        type: global
         priority: 0

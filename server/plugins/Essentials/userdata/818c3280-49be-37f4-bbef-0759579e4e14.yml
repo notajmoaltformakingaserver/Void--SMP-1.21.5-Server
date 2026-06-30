@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1777953888054
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777953938275
+  login: 1777953632181
+money: '0.0'
+last-account-name: The_legendary
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 2.2915581908061764
+  y: 65.0
+  z: -99.53797758300037
+  yaw: 86.41691589355469
+  pitch: 80.21326446533203
+logoutlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: 0.5
+  y: 65.0
+  z: -99.5
+  yaw: 0.0
+  pitch: 0.0
+mail:
+- legacy: false
+  read: false
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105609
+  expire: 0

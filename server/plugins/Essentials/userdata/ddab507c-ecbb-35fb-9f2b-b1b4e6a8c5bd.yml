@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778125398323
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778125531629
+  login: 1778124599674
+money: '1000.00'
+last-account-name: burnerv2
+lastlocation:
+  world: 374a28ef-05b1-465a-a6d1-4f189b75bc86
+  world-name: survival
+  x: -632.650820658886
+  y: 116.0
+  z: -70.96499071596922
+  yaw: 179.4000244140625
+  pitch: 1.049997329711914
+logoutlocation:
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 12.025180516611277
+  y: 7.0
+  z: 13.5
+  yaw: -90.00240325927734
+  pitch: -0.8999782204627991

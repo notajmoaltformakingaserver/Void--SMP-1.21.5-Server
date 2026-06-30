@@ -1,0 +1,59 @@
+mob-clear-message:
+  high: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &c&l%count% ᴍᴏʙꜱ ᴄʟᴇᴀʀᴇᴅ."
+  medium: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &e&l%count% ᴍᴏʙꜱ ᴄʟᴇᴀʀᴇᴅ."
+  low: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&l%count% ᴍᴏʙꜱ ᴄʟᴇᴀʀᴇᴅ."
+
+item-clear-message:
+  high: "&8[&a⚡&8}&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &c&l%count% ɪᴛᴇᴍꜱ ᴄʟᴇᴀʀᴇᴅ."
+  medium: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &e&l%count% ɪᴛᴇᴍꜱ ᴄʟᴇᴀʀᴇᴅ."
+  low: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&l%count% ɪᴛᴇᴍꜱ ᴄʟᴇᴀʀᴇᴅ."
+
+memoryOptimization:
+  messages: true
+  gcTriggered: "&aMemory optimization triggered due to high usage."
+  consoleMessage: "&eMemory optimization task completed."
+  compactCollections: "&bCompacting large collections..."
+  compactCompleted: "&aLarge collections compacted."
+  performanceLog: "&aPerformance: Memory optimization completed successfully."
+
+badPacketControl:
+  warningMessage: "&cʏᴏᴜ ᴀʀᴇ ꜱᴇɴᴅɪɴɢ ᴛᴏᴏ ᴍᴀɴʏ ᴘᴀᴄᴋᴇᴛꜱ, ᴘʟᴇᴀꜱᴇ ꜱʟᴏᴡ ᴅᴏᴡɴ!"
+
+smartClearItemMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&lɪᴛᴇᴍꜱ ʜᴀᴠᴇ ʙᴇᴇɴ ᴄʟᴇᴀʀᴇᴅ."
+smartClearMobMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&lᴍᴏʙꜱ ʜᴀᴠᴇ ʙᴇᴇɴ ᴄʟᴇᴀʀᴇᴅ."
+confirmClearAllMobsMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &cᴡᴀʀɴɪɴɢ: ᴛʜɪꜱ ᴀᴄᴛɪᴏɴ ᴡɪʟʟ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ ᴄʟᴇᴀʀ ᴀʟʟ ᴍᴏʙꜱ. ᴜꜱᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴀɢᴀɪɴ ᴛᴏ ᴄᴏɴꜰɪʀᴍ."
+allMobsClearedMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&lᴀʟʟ ᴍᴏʙꜱ ʜᴀᴠᴇ ʙᴇᴇɴ ᴄʟᴇᴀʀᴇᴅ."
+memoryFreedMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&lᴍᴇᴍᴏʀʏ ʜᴀꜱ ʙᴇᴇɴ ꜰʀᴇᴇᴅ."
+unknownCommandMessage: "&cUnknown command. Use /lightoptimizer help to see the available commands."
+
+serverhelper-messages:
+  lowTps: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &c&lꜱᴇʀᴠᴇʀ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ ɪꜱ ᴅʀᴏᴘᴘɪɴɢ!"
+  optimizing: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &e&lꜱᴇʀᴠᴇʀ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ ɪꜱ ʙᴇɪɴɢ ᴏᴘᴛɪᴍɪᴢᴇᴅ."
+  optimized: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &a&lꜱᴇʀᴠᴇʀ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ ʜᴀꜱ ʙᴇᴇɴ ᴏᴘᴛɪᴍɪᴢᴇᴅ."
+
+redstoneOptimization:
+  sendToConsole: true
+  sendToChat: false
+  cooldownBetweenWarnings: 30 # Cooldown in seconds before re-sending the same warning message
+  chunkLimitExceeded: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &cRedstone circuit at ({x}, {y}, {z}) in {world} exceeds chunk limit and has been deactivated."
+  deactivation: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &cHigh-load redstone circuit at ({x}, {y}, {z}) in {world} has been deactivated due to frequent activation."
+  autoDeactivation: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &cRedstone circuit at ({x}, {y}, {z}) in {world} was active too long and has been auto-deactivated."
+
+chunkUnload:
+  sendToConsole: false
+  sendToChat: false
+  chunkUnloadMessage: "&bʟɪɢʜᴛᴏᴘᴛɪᴍɪᴢᴇʀ➜ &eChunk {chunk} in world {world} has been unloaded due to inactivity."
+
+mobOptimization: "&6[LightOptimizer] &aMob optimization executed. &cTotal removed: &e%total_removed% &7(Mobs: &e%max_mobs_per_chunk%&7, Monsters: &e%max_monsters_per_chunk%&7, Animals: &e%max_animals_per_chunk%&7)"
+sendChat: true # Enable or disable chat messages
+sendConsole: true # Enable or disable console messages
+
+ping-warning: "&cYour connection is unstable: &e{ping} ms" # Message for chat warnings
+ping-title: "&cHigh Ping!" # Title for high ping warnings
+ping-subtitle: "&eYour ping is &c{ping} ms" # Subtitle for high ping warnings
+
+pingMessages:
+  green: "&aYour ping: %ping%ms"
+  yellow: "&eYour ping: %ping%ms"
+  orange: "&6Your ping: %ping%ms"
+  red: "&cYour ping: %ping%ms"

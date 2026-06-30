@@ -36,3 +36,12 @@ lastlocation:
   z: -2.5158737687723525
   yaw: -89.69992065429688
   pitch: 17.699987411499023
+mail:
+- legacy: false
+  read: false
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105591
+  expire: 0

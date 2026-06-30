@@ -12,26 +12,20 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "3876d5f2-ed03-3549-8d45-d005e901c940",
-    "name": "MrIrishMan_fr",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "b03095a3-33ff-3c52-a7a7-104e93b1c3da",
-    "name": "Jmo_fr",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "ceb25142-63b9-32f3-836e-66245d0b472b",
-    "name": "LordSapnerd",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "ca636300-3998-48af-b6a2-16e6da24a1cc",
     "name": "sap",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ddab507c-ecbb-35fb-9f2b-b1b4e6a8c5bd",
+    "name": "burnerv2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "734ce8f4-5481-3c68-8c40-1d2fd7a7b672",
+    "name": "xene_",
     "level": 4,
     "bypassesPlayerLimit": false
   },
@@ -56,6 +50,18 @@
   {
     "uuid": "429b2bf2-5f00-3b3b-8507-b198412ff1ac",
     "name": "feminine_fellow",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3876d5f2-ed03-3549-8d45-d005e901c940",
+    "name": "MrIrishMan_fr",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b03095a3-33ff-3c52-a7a7-104e93b1c3da",
+    "name": "Jmo_fr",
     "level": 4,
     "bypassesPlayerLimit": false
   },

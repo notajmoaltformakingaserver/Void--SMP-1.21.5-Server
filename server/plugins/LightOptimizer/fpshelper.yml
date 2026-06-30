@@ -1,0 +1,35 @@
+# FPS Helper Configuration File
+
+# Configuration for blocking low-resolution map packets
+block-low-resolution-maps: true
+# If enabled, this blocks map packets with a scale higher than the allowed maximum.
+map-max-resolution: 4
+# Define the maximum allowed resolution for map packets (0-4, where 0 is the smallest and 4 is the largest).
+
+# Configuration for blocking FPS-dropping tile entities
+block-fps-dropping-tiles: true
+# If enabled, this blocks tile entity packets that could cause FPS drops.
+tile-entity-max-action: 10
+# Define the maximum action threshold for tile entities like SKULL.
+
+# Configuration for optimizing chunk packets
+optimize-chunk-packets: true
+# If enabled, chunk packets outside the player's view distance will be blocked.
+
+# Configuration for blocking intensive particle packets
+block-intensive-particles: true
+# If enabled, particle packets with a count exceeding the maximum allowed will be blocked.
+max-particle-count: 500
+# Define the maximum particle count allowed per particle packet.
+
+# Configuration for optimizing entity metadata packets
+optimize-entity-metadata: true
+# If enabled, metadata packets for entities outside the player's view distance will be blocked.
+
+# Configuration for optimizing block change packets
+optimize-block-changes: true
+# If enabled, block change packets irrelevant to the player's position will be blocked.
+
+# Configuration for TILE_ENTITY_DATA packet optimization
+tile-entity-update-frequency: 20
+# Minimum frequency (in ticks) between TILE_ENTITY_DATA updates for the same tile entity.

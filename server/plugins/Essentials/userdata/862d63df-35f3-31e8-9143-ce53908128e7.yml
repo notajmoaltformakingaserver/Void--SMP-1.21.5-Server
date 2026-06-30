@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778398457435
+  login: 1778394649798
+money: '0.0'
+last-account-name: xene
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -89.1444143823221
+  y: 65.0
+  z: 97.14424981172976
+  yaw: 112.04150390625
+  pitch: 25.9876766204834
+nickname: §4§lX§6§le§e§ln§2§le§1§lD§5§la§d§lB§d§le§5§la§d§ln
+logoutlocation:
+  world: e81efcec-1021-479c-8d58-a330f7d569b6
+  world-name: private
+  x: 3.296867849060855
+  y: -60.0
+  z: 25.45626519365773
+  yaw: 65.25001525878906
+  pitch: -16.950000762939453

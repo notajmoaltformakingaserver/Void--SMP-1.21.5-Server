@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2022,
+      "minecraft:walk_one_cm": 8218,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 560,
+      "minecraft:play_time": 2022,
+      "minecraft:jump": 57,
+      "minecraft:time_since_death": 2022,
+      "minecraft:sprint_one_cm": 5559,
+      "minecraft:fall_one_cm": 675,
+      "minecraft:total_world_time": 2022,
+      "minecraft:fly_one_cm": 16361,
+      "minecraft:walk_on_water_one_cm": 302,
+      "minecraft:crouch_one_cm": 3,
+      "minecraft:sneak_time": 16
+    }
+  },
+  "DataVersion": 4671
+}

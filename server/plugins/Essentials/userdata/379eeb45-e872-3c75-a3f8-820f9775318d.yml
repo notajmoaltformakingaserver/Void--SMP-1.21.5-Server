@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778371465866
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778396549139
+  login: 1778396448679
+money: '11808.780000000000218'
+last-account-name: Zuokilz_
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -98.80598749895555
+  y: 64.0
+  z: 102.14882530255186
+  yaw: 140.7124786376953
+  pitch: 23.519813537597656
+nickname: §b§lZ§6§lu§b§lo§6§lD§b§la§6§lG§b§lo§6§la§b§lt
+logoutlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -98.33287734964051
+  y: 72.0
+  z: 96.29693471584778
+  yaw: 78.35296630859375
+  pitch: 18.67748260498047

@@ -1,0 +1,160 @@
+# Configuration for LightOptimizer
+
+serverHelper:
+  enabled: true # Enables or disables the Server Helper
+
+tpsOptimization:
+  # TPS threshold. Optimization is performed if the TPS drops below this threshold.
+  # For example, if set to 15.0, optimization will occur when TPS drops below 15.
+  threshold: 15.0
+
+  # Tile Entity limit. Optimization will be triggered if the number of tile entities
+  # in a world exceeds this limit. This limit is used to maintain server performance.
+  # For example, if set to 50, optimization will occur if there are more than 50 tile entities.
+  tileEntityLimit: 50
+
+  maxItemsPerChunk: 50 # Maximum number of items per chunk before optimization
+
+smartClearItem:
+  enabled: true # Enables or disables the smart item clearing
+  clearItems: true # Enables or disables item clearing
+  message: true # Enables or disables messages
+  interval: 300 # Interval in seconds for the item clearing task
+  disabledWorlds:
+    - "example1"
+    - "example2"
+  disabledItems:
+    - "example1"
+    - "example2"
+
+smartClearMob:
+  enabled: true # Whether the smart mob clearing feature is enabled
+  clearNamedMobs: false # Whether to clear mobs that have been named by players
+  clearTamedMobs: false # Whether to clear tamed mobs (pets) from the world
+  clearColoredSheep: false # If true, colored sheep will be cleared
+  interval: 300 # Interval in seconds between automatic mob clearing tasks
+  message: true # Whether to send a message to players when mobs are cleared
+  disableMobs:
+    - "VILLAGER"  # List of mobs that will not be cleared
+    - "IRON_GOLEM"
+  disableWorlds:
+    - "disableworld1"  # List of worlds where mob clearing will not be executed
+    - "disableworld2"
+
+badPacketControl:
+  maxPacketsPerSecond: 50 # Maximum number of packets per second allowed
+  checkInterval: 1 # Interval in seconds for checking packet rates
+  blockDuration: 5 # Duration in seconds to block packets if the limit is exceeded
+  warningMessage: "&cYou are sending too many packets, please slow down!" # Warning message for exceeding packet rate
+
+memoryOptimizer:
+  enabled: true # Enable or disable the Memory Optimizer feature.
+memoryOptimization:
+  interval: 600 # Time interval in seconds between memory optimization tasks.
+  enabled: true # Enable or disable the memory optimization task.
+  usageThreshold: 0.8 # Threshold (0.0 - 1.0) for memory usage. If exceeded, GC will be triggered.
+  usageThresholdEnabled: true # Whether to check the memory usage threshold before triggering GC.
+  consoleMessage: true # Whether to display a message in the console after optimization.
+  logMemoryUsage: true # Whether to log detailed memory usage statistics in the console.
+  compactLargeCollections: true # Whether to compact large collections to free excess memory.
+  logPerformance: false # Whether to log performance-related messages after optimization.
+
+
+mobOptimization:
+  enabled: true # Is mob optimization enabled?
+  interval: 600 # How often should optimization run (in seconds)?
+  maxMobsPerChunk: 15 # Maximum total mobs per chunk
+  maxMonstersPerChunk: 10 # Maximum monsters per chunk
+  maxAnimalsPerChunk: 5 # Maximum animals per chunk
+
+msptOptimization:
+  enabled: true # Enable or disable MSPT optimization
+  maxEntitiesPerType: 50 # Maximum number of entities of the same type allowed per chunk
+
+redstoneOptimization:
+  enabled: true  # Enable or disable redstone optimization
+  checkInterval: 100  # Interval in seconds for redstone optimization checks
+  maxCacheSize: 1000  # Maximum number of redstone blocks to track
+  deactivationThreshold: 10  # Seconds before deactivating inactive redstone circuits
+  throttleInterval: 2  # Milliseconds between each redstone update
+  disableHighLoadCircuits: true  # Disable circuits that frequently activate within the throttle interval
+  maxRedstoneUpdates: 100  # Maximum redstone updates per optimization cycle
+  maxRedstonePerChunk: 50  # Maximum redstone circuits allowed per chunk
+  limitRedstoneInChunks: true  # Whether to limit redstone circuits per chunk
+  batchSize: 50  # Number of redstone entries processed in each optimization task
+  maxActiveDuration: 30  # Maximum seconds a redstone circuit can remain active before forced deactivation
+  eventDebounce: 100  # Minimum interval in milliseconds between redstone events for the same block
+  clockDetectionInterval: 500  # Time in milliseconds to detect redstone clocks
+  clockActivationThreshold: 5  # Number of activations within the clockDetectionInterval to detect a clock
+
+unusedChunkCleanup:
+  enabled: true # Enable or disable the unused chunk cleanup process
+  interval: "10m" # Cleanup interval, supports "m" for minutes and "h" for hours
+  unusedTimeThreshold: "30m" # Time after which an unused chunk is considered for unloading, supports "m" and "h"
+  threadPoolSize: 4 # Number of threads to use for the cleanup task
+
+mobChunkLoading:
+  enabled: true # Enable or disable mob chunk loading control
+
+hopperOptimization:
+  enabled: true  # Set to false to completely disable hopper optimization
+  checkIntervalTicks: 40  # Interval in ticks to check and optimize hoppers
+  transferCooldown: 6  # Cooldown time in ticks to set for hoppers when active
+
+# mobAI: Disables the AI (Artificial Intelligence) of mobs.
+# When set to true, all mob AI will be disabled.
+disable-mobai: false
+
+explosions:
+  asyncTNT: true # Should TNT explosions be asynchronous?
+  asyncCreeper: true # Should Creeper explosions be asynchronous?
+  asyncCrystal: true # Should Ender Crystal explosions be asynchronous?
+
+###########################################################
+#                                                         #
+#   WARNING: DO NOT ENABLE THIS FEATURE IF YOUR SERVER    #
+#   MACHINE IS NOT POWERFUL ENOUGH. IT MAY CAUSE          #
+#   PERFORMANCE ISSUES.                                   #
+#                                                         #
+###########################################################
+
+ChunkOptimizer:
+  enabled: false # Enable or disable the ChunkOptimizer feature.
+chunkPreloading:
+  interval: 10 # Time interval between chunk preloading tasks (in seconds).
+  radius: 3 # Chunk preloading radius (around the player's current chunk).
+  prioritizeDirection: true # Whether to prioritize the player's movement direction.
+  maxLoadedChunks: 500 # Maximum number of chunks that can be loaded simultaneously.
+  chunkLoadLimit: 5 # Limit on the number of chunks loaded at the same time.
+chunkOptimization:
+  interval: 600 # Time interval between chunk optimization tasks (in seconds).
+
+
+ServerStartChunkOptimizer:
+  enabled: false  # Enable or disable server start chunk optimization
+  serverStartChunkOptimization:
+    threadPoolSize: 2  # Number of parallel threads
+    batchSize: 5  # Batch size of chunks being optimized
+    interval: 600  # Time interval for optimization (seconds)
+
+FastChunkLoader:
+  enabled: false  # Enables or disables the chunk loading feature.
+  threads: 4  # Fixed number of threads used to manage chunk loading tasks.
+  chunkLoadLimit: 10  # Maximum number of chunks to load simultaneously.
+  radius: 3  # Radius of chunks to load around the player.
+  intervalTicks: 20  # Frequency of chunk loading tasks (in ticks).
+  tpsThreshold: 18.0  # Chunk loading stops if TPS falls below this threshold.
+
+UltraFastChunkLoader:
+  enabled: false  # Enable or disable UltraFastChunkLoader
+  loadRadius: 5  # Loading radius (for nearby chunks)
+  maxThreads: 4  # Maximum threads to use for loading process
+  preloadInterval: 5  # Chunk preloading interval (seconds)
+
+##ChunkOptimizer:
+#  enabled: false  # Enable or disable chunk optimization
+#  chunkPreloading:
+#    interval: 10  # Chunk loading interval (seconds)
+#    radius: 3  # Radius of loaded chunks around the player
+#  chunkOptimization:
+#    interval: 600  # Interval for chunk optimization (seconds)

@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ip": "0:0:0:0:0:0:0:1",
+    "created": "2026-05-10 02:26:27 +0000",
+    "source": "§8[§c§lAdmin§8] §1§lN§9§lo§1§lt§9§lY§1§li§9§lm§1§lo§r",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

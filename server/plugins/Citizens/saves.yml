@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 145
+last-created-npc-id: 150
 npc:
   '134':
     metadata:
@@ -28,9 +28,9 @@ npc:
         x: 21.7605
         y: 11.0
         z: 21.587
-        bodyYaw: 139.10922
-        pitch: -4.0518
-        yaw: 122.6754
+        bodyYaw: 109.38678
+        pitch: 20.2341
+        yaw: 129.3868
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
     name: Survival
@@ -66,11 +66,11 @@ npc:
         x: 21.7776
         y: 11.0
         z: 13.5329
-        bodyYaw: 86.543106
-        pitch: 3.3523
-        yaw: 86.5431
+        bodyYaw: 84.33699
+        pitch: 15.1348
+        yaw: 84.337
       type: PLAYER
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,targetable,chunktickettrait
     name: Creative
     navigator:
       usedefaultstuckaction: false
@@ -104,9 +104,9 @@ npc:
         x: 21.4194
         y: 11.0
         z: 5.5087
-        bodyYaw: -0.64431
-        pitch: -6.689
-        yaw: -0.6443
+        bodyYaw: 26.666718
+        pitch: 23.1333
+        yaw: 26.6667
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
     name: Anarchy
@@ -115,61 +115,6 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
     uuid: 9142881a-6620-419a-b3ad-c94c0903b24a
-  '142':
-    traits:
-      owner:
-        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      hologramtrait: {
-        }
-      lookclose:
-        enabled: true
-        randomPitchRange:
-        - 0.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
-      equipment:
-        off_hand:
-          amount: 1
-          type: flint_and_steel
-        hand:
-          amount: 64
-          type: tnt
-      location:
-        worldid: 530c03a9-215c-4de2-91e8-a63c063d2a07
-        x: 3.4172
-        y: 7.0
-        z: 7.2031
-        bodyYaw: 286.77646
-        pitch: -4.7717
-        yaw: 298.762
-      text:
-        speech-bubbles: true
-        realistic-looking: true
-        send-text-to-chat: false
-        text:
-        - HELP ME IM A REAL HUMAN STUCK INSIDE THIS BABY ZOMBIE AHHHH!!!!!!!!
-      type: ZOMBIE
-      waypoints:
-        provider: wander
-        wander: {
-          }
-      age:
-        age: -24000
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,lookclose,equipment,type,inventory,waypoints,hologramtrait,location,text,age,chunktickettrait
-    name: HELP ME!
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: db16a72e-169e-449d-8bca-bc775b2a895b
-    metadata:
-      respawn-delay: 2
-      protected: true
   '143':
     metadata:
       cached-skin-uuid-name: 65b19065-e392-4a5f-b1f1-dc9531360bc9
@@ -202,9 +147,9 @@ npc:
         x: -630.4885
         y: 116.0
         z: -70.5098
-        bodyYaw: -5.2837677
+        bodyYaw: 0.13152313
         pitch: 0.0
-        yaw: -5.2838
+        yaw: 0.1315
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
     name: Jmo_fr
@@ -213,51 +158,6 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
     uuid: 8ad30e2f-f12c-40c5-a044-0d1b408e05bb
-  '144':
-    metadata:
-      cached-skin-uuid-name: 5df94e2c-0cb8-430d-9d55-2cd45a49b5e0
-      protected: false
-      removefromplayerlist: false
-      respawn-delay: 25
-    traits:
-      owner:
-        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      skintrait:
-        signature: QLN7GoSOdkF8iRR1IK5blu06EIgynPG0Fq5wCuynMf0AA+3hoWdM8ik/UYRcDF7GDP8AlbfV+B6HVUfvKyqkNi4/ngn/GbcaOjapaXuRTVeKb+Y2vitGztbRqxj67bhvs4j9MSi0kbHHO7miWbjgt4NMWfJH80U0f/i6CZBYpILR2ZqBhoxVbbYLO1ZfsGchJDMpNTBpRcbzTSYMi0zaBBhPdZpmTUkElAZ/adqDQMz1bgHl2bRVkPN6kYUKfh8BwZMVO3i+0n4armqsAbPwDp51ngthmH4rCHP7ZASKkpisr7K3IgfdXwgceLfxA7taWbKSt0qxJJa6ZEI1E4C0TP6l24jbcubwKGiMwcOt7bVlCwu8rtrOmQl481MwqYD5KLZGb3/2ZRkYdS47Rkbznx9dIruOODkGij4JCyq2NaPX0ZJE6mFLlAPwKVEZRllDwj/UuiFrx+6atp5FSVeVqnzKM0/UPzlpGgWv683hmgi9ubqpbEDM6NryqkUtl0rgG0KDZHuXFuH7xkgBCZys+SjbOJUkj3GI4Ena8FQG2Hs73+5ZgHqF6Y1arntuj56zH7iRmaS+7VAUhUOKjM/LzpLS9Q2bL7SXboOUj9bSn+eluNWU80kOhzsFr4KkmoUT+hJGhg/iKBuqsU7etCgKJrY1zRpknsDRrpp4Tx6qdt4=
-        skinName: 5df94e2c-0cb8-430d-9d55-2cd45a49b5e0
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2NzEzNTk3Mjk0MSwKICAicHJvZmlsZUlkIiA6ICI3Mjc2ZThmYzVkNjE0ODNjYmMwN2IxYjIzNjI3MDA4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWJvV2ViaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWIwYThiNGUzOWUzN2NmZDJiZDVkNTNhYjlmNTBhNmMwMGQzYTM0YzU4NTYzMmQyNDUyYTY0YTVmNjRjYThkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
-      lookclose:
-        randomPitchRange:
-        - 0.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
-      location:
-        worldid: e40c0e10-b55d-4ff6-8a39-6b57431348aa
-        x: 2.9959
-        y: -249954.5671
-        z: 24.5561
-        bodyYaw: -176.70285
-        pitch: 37.95
-        yaw: -176.7029
-      type: PLAYER
-      waypoints:
-        provider: linear
-        linear: {
-          }
-      targetable:
-        targetable: true
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,waypoints,targetable,chunktickettrait
-    name: Ob_enjoyer
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 0faa52ed-1a37-4976-8751-eb840412039c
   '145':
     metadata:
       cached-skin-uuid: 65c7e768-2cf8-4ff4-bc24-cf1c39389fea
@@ -285,11 +185,11 @@ npc:
         x: 21.7099
         y: 11.0
         z: 29.3492
-        bodyYaw: -179.68436
-        pitch: -10.7066
-        yaw: -179.6844
+        bodyYaw: 48.57135
+        pitch: -22.6039
+        yaw: 48.5714
       type: PLAYER
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,chunktickettrait
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,targetable,chunktickettrait
     name: One Block
     navigator:
       usedefaultstuckaction: false

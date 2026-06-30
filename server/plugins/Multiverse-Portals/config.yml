@@ -38,7 +38,7 @@ portal-creation:
 portal-usage:
   # If enabled, players will not be able to teleport to mvportals they do not have access to.
   # The permission node is: `multiverse.portal.access.<portal-name>`
-  enforce-portal-access: true
+  enforce-portal-access: false
   
   # The time (in milliseconds) a player must wait between using a mvportal.
   portal-cooldown: 1000
@@ -49,7 +49,7 @@ portal-usage:
   
   # If enabled, the nether blobbing animation will be played before the player is teleported.
   # Note: This does not work if the player is in creative mode due to server software limitations.
-  nether-animation: true
+  nether-animation: false
   
   # If enabled, mvportals will teleport all vehicles along with its passengers when the vehicle enters the portal.
   # Vehicles are usually boats, minecarts, pigs and horses.

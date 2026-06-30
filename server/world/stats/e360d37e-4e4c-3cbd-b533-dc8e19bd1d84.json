@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:dirt": 1,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone": 2,
+      "minecraft:oak_trapdoor": 1,
+      "minecraft:grass_block": 2,
+      "minecraft:infested_cracked_stone_bricks": 9,
+      "minecraft:dirt": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 22230,
+      "minecraft:walk_one_cm": 10559,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 350,
+      "minecraft:damage_taken": 30,
+      "minecraft:play_time": 22230,
+      "minecraft:jump": 23,
+      "minecraft:time_since_death": 22230,
+      "minecraft:drop": 3,
+      "minecraft:sprint_one_cm": 6224,
+      "minecraft:fall_one_cm": 1202,
+      "minecraft:swim_one_cm": 599,
+      "minecraft:total_world_time": 22230,
+      "minecraft:fly_one_cm": 5037,
+      "minecraft:walk_on_water_one_cm": 456,
+      "minecraft:crouch_one_cm": 347,
+      "minecraft:sneak_time": 108
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 2,
+      "minecraft:infested_cracked_stone_bricks": 128
+    },
+    "minecraft:dropped": {
+      "minecraft:infested_cracked_stone_bricks": 128
+    }
+  },
+  "DataVersion": 4671
+}

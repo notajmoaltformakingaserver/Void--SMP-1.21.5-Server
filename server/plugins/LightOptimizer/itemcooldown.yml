@@ -1,0 +1,16 @@
+# Should OPs bypass the cooldown? Set to true or false.
+op-bypass: false
+
+cooldowns:
+  trident:
+    enabled: true
+    duration: 10  # seconds
+  trident.riptide:
+    enabled: true
+    duration: 15  # seconds
+  firework_rocket:
+    enabled: true
+    duration: 20  # seconds
+
+# Should the slot cooldown be enabled? This adds a visual cooldown on the item slot.
+slot-cooldown: true

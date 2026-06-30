@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778388709995
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778396367148
+  login: 1778395065128
+money: '94799.96'
+last-account-name: THESTYLISHGOONER
+lastlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -92.43388231535438
+  y: 65.0
+  z: 93.45630988043717
+  yaw: 16.4732666015625
+  pitch: 16.04320526123047
+nickname: §d§lD§2§la§d§lS§2§lt§d§ly§2§ll§d§li§2§ls§d§lh§2§lG§d§lo§2§lo§d§ln§2§le§d§lr
+logoutlocation:
+  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+  world-name: OneBlock
+  x: -98.5
+  y: 66.0
+  z: 89.623
+  yaw: -2.09991455078125
+  pitch: -0.6000075936317444

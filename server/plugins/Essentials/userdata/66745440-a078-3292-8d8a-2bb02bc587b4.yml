@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778394655066
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778394777738
+  login: 1778394309480
+money: '0.0'
+last-account-name: Kiko__
+lastlocation:
+  world: dac8053b-c7c1-4eca-968d-3979da363a1a
+  world-name: Plots
+  x: -216.2193984513559
+  y: 65.875
+  z: -344.7778597119813
+  yaw: -75.44973754882812
+  pitch: 10.050012588500977
+logoutlocation:
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 9.678693412276726
+  y: 7.0
+  z: 16.496918281966405
+  yaw: 0.29718017578125
+  pitch: 27.150043487548828

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778379900185
+  login: 1778379757633
+money: '0.0'
+last-account-name: SAY_WALLAHI_BRO_
+lastlocation:
+  world: 0287afd3-cc48-4e07-96f8-06b2585d811b
+  world-name: world
+  x: -23.5
+  y: 68.0
+  z: -14.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 10.815191131870085
+  y: 7.0
+  z: 7.814366869452384
+  yaw: -120.0024185180664
+  pitch: 4.350006580352783

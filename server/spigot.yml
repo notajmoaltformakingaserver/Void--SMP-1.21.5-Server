@@ -11,12 +11,16 @@
 # Website: https://papermc.io/
 
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
+  whitelist: You dont get to join at the moment. lmfao
+  unknown-command: not a command. use /help, dummy. (unless Jmo. then you can ignore
+    this.)
+  outdated-client: THIS SERVER IS ONLY FOR 1.12 - 1.21.11 GET A NEWER VERSION OF EAGLERCRAFT,
+    YOU DUMMY.
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: server just MIGHT be restarting, if you see this message then it probably
+    is. if you see this message and the server isn't restarting, then ignore this
+    message.
 settings:
   disable-secure-chat: true
   bungeecord: true
@@ -26,9 +30,9 @@ settings:
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  timeout-time: 60
+  timeout-time: -1
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: bash startup.sh
   netty-threads: 4
   attribute:
     maxAbsorption:
@@ -39,8 +43,8 @@ settings:
       max: 1024.0
     attackDamage:
       max: 2048.0
-  log-villager-deaths: true
-  log-named-deaths: true
+  log-villager-deaths: false
+  log-named-deaths: false
   debug: false
 advancements:
   disable-saving: false

@@ -11,29 +11,38 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1776135163916
+  lastteleport: 1778379053740
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776136194039
-  login: 1776136076246
-money: '1002225.909999999900000000000000000'
+  logout: 1778380238638
+  login: 1778380017628
+money: '1.99999999999999960E-10'
 last-account-name: 2025IDK
 lastlocation:
-  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
-  world-name: OneBlock
-  x: 3.546294484562548
-  y: 69.40268290316554
-  z: 0.7879369376526741
-  yaw: 47.84711456298828
-  pitch: 25.799976348876953
+  world: 374a28ef-05b1-465a-a6d1-4f189b75bc86
+  world-name: survival
+  x: -631.406990873159
+  y: 116.0
+  z: -83.99312384835288
+  yaw: 75.14985656738281
+  pitch: -14.699944496154785
 logoutlocation:
-  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
-  world-name: OneBlock
-  x: 96.02388737549366
-  y: 65.0
-  z: -84.50671905233419
-  yaw: 158.55242919921875
-  pitch: 0.05347402021288872
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: -0.44813577577474967
+  y: 8.699999952316285
+  z: -2.025746414322238
+  yaw: 147.1465606689453
+  pitch: 11.699995040893555
 nickname: §f2025IDK
+mail:
+- legacy: false
+  read: false
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105612
+  expire: 0

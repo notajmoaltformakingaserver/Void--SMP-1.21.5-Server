@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778025495765
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778025643641
+  login: 1778024906947
+money: '0.0'
+last-account-name: BeeGirl
+lastlocation:
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 20.770710654556755
+  y: 7.0
+  z: 22.50795679271622
+  yaw: -90.00240325927734
+  pitch: -0.8999782204627991
+logoutlocation:
+  world: 374a28ef-05b1-465a-a6d1-4f189b75bc86
+  world-name: survival
+  x: -727.5907866306802
+  y: 68.0
+  z: 94.0760888395179
+  yaw: 160.049560546875
+  pitch: 55.95000076293945
+mail:
+- legacy: false
+  read: false
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105664
+  expire: 0

@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:talked_to_villager": 14,
+      "minecraft:time_since_rest": 10942,
+      "minecraft:walk_one_cm": 101052,
+      "minecraft:leave_game": 11,
+      "minecraft:walk_under_water_one_cm": 47,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 4458,
+      "minecraft:play_time": 104208,
+      "minecraft:damage_dealt": 157,
+      "minecraft:jump": 210,
+      "minecraft:time_since_death": 10918,
+      "minecraft:drop": 15,
+      "minecraft:open_enderchest": 15,
+      "minecraft:sprint_one_cm": 18878,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 19599,
+      "minecraft:total_world_time": 104208,
+      "minecraft:fly_one_cm": 70354,
+      "minecraft:interact_with_anvil": 32,
+      "minecraft:walk_on_water_one_cm": 433,
+      "minecraft:crouch_one_cm": 2913,
+      "minecraft:sneak_time": 1795,
+      "minecraft:deaths": 13
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_planks": 2,
+      "minecraft:soul_sand": 1,
+      "minecraft:spruce_sign": 1,
+      "minecraft:dirt": 25,
+      "minecraft:spruce_sapling": 4,
+      "minecraft:stick": 2,
+      "minecraft:totem_of_undying": 2,
+      "minecraft:yellow_terracotta": 2,
+      "minecraft:gravel": 1,
+      "minecraft:red_sand": 1,
+      "minecraft:tadpole_bucket": 8,
+      "minecraft:cactus": 1,
+      "minecraft:dark_oak_planks": 1,
+      "minecraft:raw_iron": 1,
+      "minecraft:oak_sign": 1,
+      "minecraft:mangrove_planks": 1,
+      "minecraft:cooked_mutton": 1,
+      "minecraft:clay_ball": 1,
+      "minecraft:splash_potion": 1,
+      "minecraft:dark_oak_log": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:spruce_sapling": 4,
+      "minecraft:diamond_boots": 1,
+      "minecraft:splash_potion": 1,
+      "minecraft:spruce_planks": 2,
+      "minecraft:cooked_mutton": 1,
+      "minecraft:tadpole_bucket": 6
+    },
+    "minecraft:used": {
+      "minecraft:dragon_head": 1,
+      "minecraft:yellow_terracotta": 1,
+      "minecraft:ender_chest": 2,
+      "minecraft:oak_sign": 1,
+      "minecraft:wither_skeleton_skull": 1,
+      "minecraft:anvil": 1,
+      "minecraft:dirt": 12
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 3
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:dark_oak_planks": 4
+    },
+    "minecraft:mined": {
+      "minecraft:bush": 1,
+      "minecraft:dirt": 1,
+      "minecraft:podzol": 2,
+      "minecraft:oak_sign": 1,
+      "minecraft:grass_block": 23,
+      "minecraft:green_stained_glass": 6
+    }
+  },
+  "DataVersion": 4671
+}

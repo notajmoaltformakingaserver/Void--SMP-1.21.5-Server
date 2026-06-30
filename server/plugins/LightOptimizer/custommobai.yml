@@ -1,0 +1,7 @@
+# Custom mob AI configurations
+custom-mob-ai:
+  proximity-based-ai-activation: true # Enables AI for mobs when players are nearby.
+  idle-ai-management: true # Disables AI for mobs when they remain idle for too long.
+  chunk-based-mob-ai-control: true # Disables AI for mobs in chunks without players.
+  event-triggered-ai: true # Enables AI for mobs when certain events, like damage, occur.
+  disable-mob-movement: true # Completely disables mob movement and targeting.

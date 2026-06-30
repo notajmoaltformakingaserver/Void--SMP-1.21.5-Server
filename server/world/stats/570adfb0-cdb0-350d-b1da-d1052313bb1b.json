@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:totem_of_undying": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 7991,
+      "minecraft:walk_one_cm": 5813,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 235,
+      "minecraft:play_time": 12704,
+      "minecraft:jump": 54,
+      "minecraft:time_since_death": 7929,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 1262,
+      "minecraft:total_world_time": 12704,
+      "minecraft:fly_one_cm": 9729,
+      "minecraft:crouch_one_cm": 512,
+      "minecraft:sneak_time": 482,
+      "minecraft:deaths": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    }
+  },
+  "DataVersion": 4671
+}

@@ -16,24 +16,33 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1773183472450
-  login: 1773183284728
-money: '0'
+  logout: 1778379987317
+  login: 1778379174302
+money: '0.0'
 last-account-name: _K1k2_
-nickname: §b§l_§4§lK§d§l1§4§lk§d§l2§b§l_
+nickname: §d§l§o§mK1K2
 lastlocation:
-  world: dac8053b-c7c1-4eca-968d-3979da363a1a
-  world-name: Plots
-  x: -46.668126009054596
-  y: 63.5
-  z: -87.30000001192093
-  yaw: -13.0494966506958
-  pitch: 22.049976348876953
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: -0.5607714281610795
+  y: 6.074723794535252
+  z: 4.699999988079071
+  yaw: -171.15235900878906
+  pitch: 80.85011291503906
 logoutlocation:
-  world: dac8053b-c7c1-4eca-968d-3979da363a1a
-  world-name: Plots
-  x: -43.5
-  y: 65.0
-  z: -73.5
-  yaw: -8.365512258023955E-6
-  pitch: -2.002715973503655E-6
+  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
+  world-name: spawn
+  x: 13.346391602949984
+  y: 7.0
+  z: 4.086547268080146
+  yaw: -44.85258102416992
+  pitch: 7.050020217895508
+mail:
+- legacy: false
+  read: true
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105629
+  expire: 0

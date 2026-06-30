@@ -1,0 +1,42 @@
+# +-------------------------------------------------------------------------+
+# |                           ServerBooster                               |
+# |                             Messages                                  |
+# +-------------------------------------------------------------------------+
+# All messages support MiniMessage format.
+# Reference: https://docs.advntr.dev/minimessage/format.html
+
+no-permission: <red>You don't have permission to do that.</red>
+plugin-reloaded: <gold>ServerBooster configurations reloaded!</gold>
+only-players: <red>This command can only be used by players.</red>
+update-available: '<yellow>[ServerBooster] <green>A new update is available! <white>v{version}</white>. Download it here: <blue><u>https://www.spigotmc.org/resources/123456/</u></blue></green></yellow>'
+
+# Lag Monitor
+chunk-too-many-updates: '<yellow>[ServerBooster] <red>Warning: Chunk at <white>{coords}</white> has <white>{count}</white> updates per minute!</red></yellow>'
+
+# Optimization Commands
+force-optimized: <gold>Forcefully optimized entities in enabled worlds.</gold>
+no-limitable-mob: <red>No limitable mob in sight.</red>
+page-not-exist: <red>Page <white>{page}</white> does not exist.</red>
+
+# Help Menu
+help:
+  header: <gold>--- ServerBooster Commands ---</gold>
+  reload: <yellow>/sb reload <gray>- Reload config.</gray></yellow>
+  mobs-limits: <yellow>/sb mobs limits <gray>- Show all entity limits.</gray></yellow>
+  mobs-count: <yellow>/sb mobs count <gray>- Count entities nearby.</gray></yellow>
+  gui: <yellow>/sb gui <gray>- Open the Admin Dashboard.</gray></yellow>
+  mobs-check: <yellow>/sb mobs check <gray>- Check mob in sight.</gray></yellow>
+  mobs-forceoptimize: <yellow>/sb mobs forceoptimize <gray>- Force optimization.</gray></yellow>
+  chunks-blockphysics: <yellow>/sb chunks blockphysics <gray>- Show lag report.</gray></yellow>
+
+# Entity Check
+entity-info:
+  header: '<gold>--- Entity Info: <white>{key}</white> ---</gold>'
+  radius: '<yellow>Radius Count: <gray>{count}/{max}</gray></yellow>'
+  chunk: '<yellow>Chunk Count: <gray>{count}/{max}</gray></yellow>'
+  special: '<yellow>Is Special: <gray>{special}</gray></yellow>'
+  can-spawn: '<yellow>More Can Spawn: <gray>{can_spawn}</gray></yellow>'
+  footer: <gold>-------------------------</gold>
+
+# Limiter
+breed-failed-too-many-mobs: <red>Breeding failed! Too many <white><mob></white> in this area.</red>

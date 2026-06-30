@@ -11,29 +11,38 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1776135674860
+  lastteleport: 1778396531850
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776136008937
-  login: 1776139289047
-money: '0.0'
+  logout: 1778396550638
+  login: 1778393911583
+money: '10000000000000.0'
 last-account-name: NotYimo
 lastlocation:
   world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
   world-name: OneBlock
-  x: 98.17035493438362
-  y: 69.99982197519601
-  z: -101.37762409470072
-  yaw: -0.135986328125
-  pitch: 67.02350616455078
+  x: 0.5
+  y: 65.0
+  z: 100.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
   world-name: OneBlock
-  x: 100.5
-  y: 65.2013
-  z: -99.5
-  yaw: -111.47881317138672
-  pitch: 39.712554931640625
+  x: -97.42738751424898
+  y: 84.70589813172248
+  z: 85.32429865400002
+  yaw: 48.568546295166016
+  pitch: 70.58746337890625
+mail:
+- legacy: false
+  read: true
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105620
+  expire: 0
 nickname: §1§lN§9§lo§1§lt§9§lY§1§li§9§lm§1§lo

@@ -34,7 +34,7 @@ ops-name-color: 'none'
 nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
-max-nick-length: 20
+max-nick-length: 200
 
 # The regex pattern used to determine if a requested nickname should be allowed for use.
 # If the requested nickname does not match this pattern, the nickname will be rejected.
@@ -557,7 +557,7 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&8[&a&l+&8] &e{USERNAME}&7 {ONLINE} Players Online"
+custom-join-message: "&8[&a&l+&8] &e{USERNAME}&7 {ONLINE} Players Total"
 custom-quit-message: "&8[&c&l-&8] &e{USERNAME}&7 {ONLINE} Remain"
 
 # You can set a custom join message for players who join with an updated username here.
@@ -1215,7 +1215,7 @@ newbies:
   # This kit will be given regardless of cost and permissions and won't trigger any kit delay (cooldown).
   # Set to '' to disable.
   #kit: ''
-  kit: tools
+  kit: ''
 
 # What priority should Essentials use for handling respawns?
 # Set this to 'none' if you want vanilla respawning behavior.

@@ -1,0 +1,74 @@
+# LightUpdateOptimizer settings
+lightUpdatesOptimizer:
+  enabled: false # Set to true to enable light update optimization. Default is disabled.
+  async: false # Set to true to run light updates asynchronously. Recommended for better performance.
+  interval: 10 # Defines how often (in seconds) light updates are processed.
+  chunksPerCycle: 1 # Number of chunks to process per cycle. Lower values may improve server performance.
+  maxUpdatesPerCycle: 5 # Maximum number of light updates to perform per cycle. Lower values reduce server load.
+
+# ExplosionLimiter settings
+explosionLimits:
+  enabled: true # Enables or disables explosion limits for specified entities
+  enable-tnt: true # Controls if TNT explosions are limited by chunk
+  enable-endcrystal: true # Controls if End Crystal explosions are limited by chunk
+  tntPerChunk: 10 # Maximum allowed TNT explosions per chunk within a reset interval
+  endCrystalPerChunk: 5 # Maximum allowed End Crystal explosions per chunk within a reset interval
+  deferExcessExplosions: true # Prevents excess TNT explosions, but leaves them passive.
+
+explosions:
+  enable: true # Enable or disable all explosions globally. Set to false to prevent all explosions.
+  disable-sounds: true # Set to true to mute explosion sounds across the server. If false, explosion sounds will play normally.
+  disable-particles: false # Set to true to turn off explosion particles, reducing visual effects for players.
+  disable-animations: false # Set to true to disable explosion animations, removing the explosive visual impact.
+
+  fire-on-explosion: false # Determines if explosions should cause fire. Set to true to enable fire when explosions occur.
+  explosion-radius: 4.0 # Sets the radius (size) of explosions. Increasing this value will expand the explosion’s reach.
+  prevent-block-damage: true # Set to true to protect blocks from being destroyed by explosions. False allows blocks to be damaged.
+
+  enabled-tnt: false # Set to true to allow TNT explosions. False will prevent TNT from exploding.
+  enabled-creeper: false # Set to true to enable Creeper explosions. False will prevent Creepers from causing explosions.
+  enabled-ender-crystal: false # Set to true to enable Ender Crystal explosions. False will prevent Ender Crystals from exploding.
+  enabled-fireball: false # Set to true to allow Fireball explosions. False will disable Fireball explosions.
+  enabled-wither-skull: false # Set to true to allow Wither Skull explosions. False will prevent Wither Skulls from exploding.
+
+
+
+entity-culling:
+  enabled: true # Enable or disable the Entity Culling feature
+  check-interval-seconds: 20 # Interval in seconds for entity culling checks
+  culling-distance: 50.0 # Maximum distance to check entities relative to the player
+  line-of-sight-check: true # Check entities that are not in the player's line of sight
+  chunk-radius: 2 # Radius of chunks around the player to be scanned
+  excluded-entities: # Entities excluded from culling
+    - VILLAGER
+    - ARMOR_STAND
+    - ITEM_FRAME
+
+falling-blocks:
+  enabled: true  # Enable falling block features.
+  # SOON :optimize-fall: true  # Optimize falling blocks for instant drop.
+  # SOON :optimize-check-interval-seconds: 1  # Interval in seconds for checks.
+  excluded-blocks:  # Blocks that won't be optimized.
+    - SAND
+    - GRAVEL
+    - ANVIL
+
+# Settings for NetworkPingNotifier feature
+NetworkPingNotifier:
+  enabled: true # Set to false to completely disable the feature
+  sendchat: true # Enable or disable chat warnings
+  sendtitle: true # Enable or disable title warnings
+  senchat-threshold: 100 # Minimum ping value to trigger chat warnings
+  sendtitle-threshold: 500 # Minimum ping value to trigger title warnings
+
+# SOON
+# LavaWaterFlowOptimizer Settings
+lavaWaterFlowOptimization:
+  enabled: false # Enable or disable the LavaWaterFlowOptimizer entirely. If false, this module will not run.
+  optimization: false # If true, optimizations for lava and water flow will be applied.
+  restrictFlow: false # If true, restricts lava and water to stay in a single block (no spreading).
+  singleBlockFlow: false # If true, water and lava will remain as a single block and will not flow to adjacent blocks.
+  customFlow:
+    enabled: false # Enables custom flow mechanics for lava and water.
+    waterFlowDelay: 2 # Delay in seconds for water to flow between blocks.
+    lavaFlowDelay: 4 # Delay in seconds for lava to flow between blocks.

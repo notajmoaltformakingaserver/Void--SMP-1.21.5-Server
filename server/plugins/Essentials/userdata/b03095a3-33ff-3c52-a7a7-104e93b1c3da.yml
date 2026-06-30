@@ -5,35 +5,59 @@ muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
 afk: false
-socialspy: false
+socialspy: true
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: true
 timestamps:
-  lastteleport: 1776141708687
+  lastteleport: 1778395913790
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776146020643
-  login: 1776145787551
+  logout: 1778398292423
+  login: 1778389009480
+  kits:
+    tools: 1778374316140
+    color: 1778374323082
+    dtools: 1778374475275
+    notch: 1778374370824
+    firework: 1778374381233
 money: '0.0'
 last-account-name: Jmo_fr
 logoutlocation:
-  world: 530c03a9-215c-4de2-91e8-a63c063d2a07
-  world-name: spawn
-  x: 8.815235722409607
-  y: 7.0
-  z: 1.8777616286942984
-  yaw: -15.450145721435547
-  pitch: -6.9000244140625
+  world: e81efcec-1021-479c-8d58-a330f7d569b6
+  world-name: private
+  x: 3.296867849060855
+  y: -60.0
+  z: 25.45626519365773
+  yaw: 65.25001525878906
+  pitch: -16.950000762939453
 lastlocation:
-  world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
-  world-name: OneBlock
-  x: -0.7896857153119647
-  y: 65.0
-  z: 5.076479245747198
-  yaw: -166.65274047851562
-  pitch: 18.14999008178711
-nickname: §2§lJmo§8§l_§a§lfr
+  world: e81efcec-1021-479c-8d58-a330f7d569b6
+  world-name: private
+  x: 19.617545678784047
+  y: -60.0
+  z: 26.101536703607465
+  yaw: -137.69952392578125
+  pitch: 15.000027656555176
+mail:
+- legacy: false
+  read: true
+  message: §a§lWelcome!§7 to §d§lVoiders§8§m-§5§lSMP§e!§7 to start, please enter a
+    portal!
+  sender-name: Jmo_fr
+  sender-uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+  timestamp: 1778122105626
+  expire: 0
+nickname: §2§lJmo§7_§a§lfr
+homes:
+  palace:
+    world: e40c0e10-b55d-4ff6-8a39-6b57431348aa
+    world-name: OneBlock
+    x: 74.1682758385314
+    y: 143.75629555856733
+    z: -59.38162611529362
+    yaw: 179.55859375
+    pitch: -3.1504430770874023

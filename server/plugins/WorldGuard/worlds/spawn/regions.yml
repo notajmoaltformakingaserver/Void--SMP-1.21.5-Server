@@ -11,8 +11,8 @@
 #
 regions:
     spawn:
-        min: {x: -31, y: 5, z: -30}
-        max: {x: 49, y: 5, z: 57}
+        min: {x: -31, y: -64, z: -30}
+        max: {x: 49, y: 319, z: 57}
         members: {}
         flags: {mob-damage: deny, block-break: deny, pvp: deny, mob-spawning: deny}
         owners:
